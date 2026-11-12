@@ -102,13 +102,13 @@
    "farge": "r",
    "tittel": "To nye underleverandører må ha erklæring og ESPD",
    "hvem": "Bico",
-   "tekst": "PRO SHOP AS har svart på ESPD-forespørselen i Artifik (varsel 14:30). Gjenstår: PRO SHOPs signerte forpliktelseserklæring, og forpliktelseserklæring og ESPD fra Verktøymakeren i Lillesand."
+   "tekst": "PRO SHOP har levert ESPD i Artifik. Gjenstår: PRO SHOPs signerte forpliktelseserklæring, og forpliktelseserklæring og ESPD fra Verktøymakeren."
   },
   {
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Eker og PRO SHOP har svart. Bico, Signex og Verktøymakeren er ikke bekreftet."
+   "tekst": "Bico har fylt ut sin del, og Eker og PRO SHOP har levert. Signex og Verktøymakeren står fortsatt som invitert og har ikke svart."
   },
   {
    "farge": "g",
@@ -165,7 +165,7 @@
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Eker og PRO SHOP har svart. Bico, Signex og Verktøymakeren ikke bekreftet."
+   "tekst": "Bico har fylt ut sin del, og Eker og PRO SHOP har levert. Signex og Verktøymakeren står fortsatt som invitert og har ikke svart."
   },
   {
    "farge": "r",
@@ -183,7 +183,7 @@
    "farge": "g",
    "tittel": "Attester, regnskap og sertifikat",
    "hvem": "Vakta",
-   "tekst": "Godkjent for Bico, Signex og Eker. Må lastes opp i Artifik."
+   "tekst": "Lastet opp i Artifik: firmaattest, skatteattest, årsregnskap, delårsregnskap, revisjonsberetning, Proff Forvalt og Miljøfyrtårn-sertifikat. Referansene er lastet opp av Einar, også i sladdet versjon."
   }
  ],
  "checks": [
@@ -414,6 +414,7 @@
   "tekst": "jobber nå, startet kl. 18:03"
  },
  "log": [
+  "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
   "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut.",
@@ -424,8 +425,7 @@
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
   "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn.",
   "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
-  "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
-  "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting."
+  "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag."
  ],
  "oppdatert": "12.11.2026 kl. 18:04"
 }
