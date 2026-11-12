@@ -398,9 +398,10 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 12:31"
+  "tekst": "jobber nå, startet kl. 12:37"
  },
  "log": [
+  "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
   "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår.",
@@ -411,8 +412,7 @@
   "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet.",
   "12.11 10:27 Statussiden lagt ut.",
   "12.11 09:58 Mail sendt Herman om åtte tjenester.",
-  "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene.",
-  "12.11 09:48 Ny versjon bestilt: Eker leverer alle åtte tjenestene."
+  "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene."
  ],
  "oppdatert": "12.11.2026 kl. 12:37"
 }
