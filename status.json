@@ -1,11 +1,11 @@
 {
- "versjon": "v29",
- "aapne": 53,
+ "versjon": "v30",
+ "aapne": 49,
  "bekreft": 119,
  "selskap": [
   [
    "Bico",
-   26,
+   22,
    52
   ],
   [
@@ -221,12 +221,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v29, 2026-11-12 16:43. Ingen stopp."
+   "tekst": "Stemplet på v30, 2026-11-12 16:55. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v29 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v30 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -425,14 +425,14 @@
  "fremdrift": {
   "krav_ferdig": 9,
   "krav_alle": 22,
-  "fylt": 69,
+  "fylt": 71,
   "bekreftet": 36,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 16:50"
+  "tekst": "jobber nå, startet kl. 16:57"
  },
  "log": [
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
@@ -448,5 +448,5 @@
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring."
  ],
- "oppdatert": "12.11.2026 kl. 16:53"
+ "oppdatert": "12.11.2026 kl. 16:58"
 }
