@@ -1,12 +1,12 @@
 {
- "versjon": "v19",
- "aapne": 65,
- "bekreft": 115,
+ "versjon": "v20",
+ "aapne": 61,
+ "bekreft": 117,
  "selskap": [
   [
    "Bico",
-   37,
-   48
+   33,
+   50
   ],
   [
    "Signex",
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v19, 2026-11-12 12:29. Ingen stopp."
+   "tekst": "Stemplet på v20, 2026-11-12 12:36. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v19 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v20 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -225,7 +225,7 @@
    "hvem": "Bico",
    "tekst": "A-krav. Bico må bekrefte at alt kan leveres, også de sprøytestøpte delene.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R003",
@@ -233,7 +233,7 @@
    "hvem": "Bico",
    "tekst": "Bico svarer ja og har egen konstruksjonskompetanse. Mangler hvem som gjør endringen, utstyr og eksempler.",
    "aapne": 5,
-   "bekreft": 2
+   "bekreft": 4
   },
   {
    "id": "R004",
@@ -304,7 +304,7 @@
    "tittel": "Reklamasjon",
    "hvem": "Bico",
    "tekst": "Bicos egen tekst er inne. Mangler stedfortreder for kontaktpersonen.",
-   "aapne": 1,
+   "aapne": 0,
    "bekreft": 12
   },
   {
@@ -389,10 +389,10 @@
   }
  ],
  "fremdrift": {
-  "krav_ferdig": 8,
+  "krav_ferdig": 9,
   "krav_alle": 22,
-  "fylt": 64,
-  "bekreftet": 40,
+  "fylt": 66,
+  "bekreftet": 38,
   "bekreft_alle": 155
  },
  "agent": {
@@ -414,5 +414,5 @@
   "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene.",
   "12.11 09:48 Ny versjon bestilt: Eker leverer alle åtte tjenestene."
  ],
- "oppdatert": "12.11.2026 kl. 12:32"
+ "oppdatert": "12.11.2026 kl. 12:37"
 }
