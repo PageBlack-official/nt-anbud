@@ -3,7 +3,7 @@
  "aapne": 0,
  "bekreft": 0,
  "selskap": [],
- "ingress": "Konseptelementer for fysiske arenaer. Den endelige teksten er låst kl. 18:05 og ligger i Artifik. Det som gjenstår, er signatur og svar fra underleverandørene, og det ligger hos Bico. Einar sender inn fredag før kl. 10:00.",
+ "ingress": "Konseptelementer for fysiske arenaer. Versjon 40 av løsningsspesifikasjonen ligger i Artifik sammen med signert tilbudsbrev og rettet prismatrise. Det som gjenstår, er erklæringene fra PRO SHOP og Verktøymakeren, og det ligger hos Bico. Einar sender inn fredag før kl. 10:00.",
  "frist": "Fre 10:00",
  "fast": [
   {
@@ -60,7 +60,7 @@
    "ferdig": true,
    "tittel": "Platetykkelsen avklart",
    "hvem": "Bico",
-   "tekst": "Bico tilbyr 5 mm, slik Norsk Tippings vedlegg sier. Ingen avvik i tilbudsbrevet."
+   "tekst": "A5-anleggsskiltene leveres i 5 mm. A3 og A4 leveres i 3 mm som i Bilag 1. Teksten og prismatrisen sier det samme."
   },
   {
    "farge": "g",
@@ -96,7 +96,7 @@
    "farge": "g",
    "tittel": "Prismatrisen, alle seks ark",
    "hvem": "Bico",
-   "tekst": "Mottatt fra Bico 16:22, alle seks ark er fylt ut. Ingen tomme prisruter.",
+   "tekst": "Oppdatert etter møtet i kveld: ny timepris på montering av folie, og A5-anleggsskiltene priset i 5 mm. Lastet opp i Artifik 20:44.",
    "ferdig": true
   },
   {
@@ -126,16 +126,17 @@
    "ferdig": true
   },
   {
-   "farge": "r",
+   "farge": "g",
    "tittel": "Tilbudsbrevet signert",
    "hvem": "Bico",
-   "tekst": "Sendt til Einar 18:34. Mangler postadresse, sted, dato og signatur av prokurist eller to styremedlemmer."
+   "tekst": "Signert av Markus Stellander og lastet opp i Artifik som Tilbudsbrev.pdf, med sted, dato og forklaring på sladdingen.",
+   "ferdig": true
   },
   {
    "farge": "g",
    "tittel": "Markørene ut, så sladdet versjon",
    "hvem": "Claude",
-   "tekst": "Bilag 2 er ferdig og har ingen markører. Den sladdede versjonen er laget, og begge ligger i Artifik sammen med Bilag 6 og prismatrisen.",
+   "tekst": "Versjon 40 har ingen markører. Den sladdede versjonen er laget av samme versjon, og begge ligger i Artifik.",
    "ferdig": true
   }
  ],
@@ -144,19 +145,20 @@
    "farge": "g",
    "tittel": "Bilag 2, løsningsspesifikasjonen",
    "hvem": "Skriver",
-   "tekst": "Ferdig og lastet opp i Artifik med Norsk Tippings filnavn. Seks referansebilder fra Eker."
+   "tekst": "Versjon 40 med svarene fra møtet i kveld. Lastet opp i Artifik 21:13 med Norsk Tippings filnavn."
   },
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Tilbudsbrev",
    "hvem": "Bico",
-   "tekst": "Sendt til Einar. Mangler adresse, sted, dato og signatur."
+   "tekst": "Signert og lastet opp i Artifik.",
+   "ferdig": true
   },
   {
    "farge": "g",
    "tittel": "Bilag 7, prismatrisen",
    "hvem": "Bico",
-   "tekst": "Mottatt utfylt i alle seks ark. Lastet opp i Artifik."
+   "tekst": "Oppdatert etter møtet i kveld og lastet opp i Artifik 20:44."
   },
   {
    "farge": "g",
@@ -174,7 +176,7 @@
    "farge": "g",
    "tittel": "Sladdet versjon",
    "hvem": "Skriver",
-   "tekst": "Lastet opp i Artifik. Oppdragsverdier, telefonnumre og e-postadresser er sladdet, og sidene er lagret som bilder."
+   "tekst": "Laget av versjon 40 og lastet opp i Artifik 21:13. Oppdragsverdier, telefonnumre og e-postadresser er sladdet, og sidene er lagret som bilder."
   },
   {
    "farge": "y",
@@ -439,6 +441,8 @@
   "tekst": "ferdig kl. 20:52"
  },
  "log": [
+  "12.11 21:48 Versjon 40 av løsningsspesifikasjonen og den sladdede versjonen er byttet inn i Artifik. Fem filer ligger der. Gjenstår: erklæringene fra PRO SHOP og Verktøymakeren.",
+  "12.11 20:44 Prismatrisen er rettet etter møtet og lastet opp, og det signerte tilbudsbrevet ligger i Artifik.",
   "12.11 20:35 Einar og Ferdinand har svart på det meste i møte med Vegar. Kortene viser nå bare det som fortsatt mangler.",
   "12.11 19:40 Signex har levert ESPD i Artifik. Bare Verktøymakeren gjenstår. Ja/nei-spørsmålene er sendt til Einar og Ferdinand.",
   "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
@@ -448,9 +452,7 @@
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
-  "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut.",
-  "12.11 14:45 PRO SHOP AS har svart på ESPD-forespørselen i Artifik.",
-  "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver."
+  "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut."
  ],
- "oppdatert": "12.11.2026 kl. 20:55"
+ "oppdatert": "12.11.2026 kl. 21:45"
 }
