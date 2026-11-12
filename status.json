@@ -436,7 +436,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "succeeded",
-  "tekst": "ferdig kl. 18:49"
+  "tekst": "ferdig kl. 18:53"
  },
  "log": [
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
@@ -452,5 +452,5 @@
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar)."
  ],
- "oppdatert": "12.11.2026 kl. 18:50"
+ "oppdatert": "12.11.2026 kl. 18:54"
 }
