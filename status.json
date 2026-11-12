@@ -1,6 +1,6 @@
 {
- "versjon": "v17",
- "aapne": 71,
+ "versjon": "v18",
+ "aapne": 72,
  "bekreft": 155,
  "selskap": [
   [
@@ -10,7 +10,7 @@
   ],
   [
    "Signex",
-   24,
+   25,
    65
   ],
   [
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v17, 2026-11-12 12:09. Ingen stopp."
+   "tekst": "Stemplet på v18, 2026-11-12 12:22. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v17 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v18 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -256,7 +256,7 @@
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
    "tekst": "Mangler mål per format, dokumentasjon på slag og holdbarhet for trykt folie, og tall for resirkulert andel.",
-   "aapne": 11,
+   "aapne": 12,
    "bekreft": 15
   },
   {
@@ -391,16 +391,17 @@
  "fremdrift": {
   "krav_ferdig": 8,
   "krav_alle": 22,
-  "fylt": 69,
+  "fylt": 68,
   "bekreftet": 0,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 12:18"
+  "tekst": "jobber nå, startet kl. 12:23"
  },
  "log": [
+  "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår.",
   "12.11 12:16 Bico har bestemt 5 mm plate på anleggsskiltene, slik Norsk Tippings vedlegg sier. Signex er spurt om levering.",
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
@@ -411,8 +412,7 @@
   "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene.",
   "12.11 09:48 Ny versjon bestilt: Eker leverer alle åtte tjenestene.",
   "12.11 09:14 Einar fikk svar om ESPD.",
-  "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
-  "11.11 16:07 Signex leverte signert forpliktelseserklæring."
+  "11.11 17:15 Ekers forpliktelseserklæring godkjent."
  ],
- "oppdatert": "12.11.2026 kl. 12:22"
+ "oppdatert": "12.11.2026 kl. 12:23"
 }
