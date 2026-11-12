@@ -430,7 +430,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "succeeded",
-  "tekst": "ferdig kl. 12:55"
+  "tekst": "ferdig kl. 13:01"
  },
  "log": [
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
@@ -446,5 +446,5 @@
   "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt.",
   "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet."
  ],
- "oppdatert": "12.11.2026 kl. 12:57"
+ "oppdatert": "12.11.2026 kl. 13:02"
 }
