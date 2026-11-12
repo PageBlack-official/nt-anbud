@@ -62,10 +62,11 @@
    "tekst": "Avklart 12:18: 3D-visualisering dekkes av renderingstjenesten."
   },
   {
-   "farge": "r",
+   "farge": "g",
    "tittel": "Eker: bilder uten logo og egenreklame",
    "hvem": "Eker",
-   "tekst": "Jan Kristian lastet opp 33 filer 13:23, men alle er sider fra Ekers presentasjon med «Eker Design», overskrifter og salgstekst. Han er bedt om de originale bildene uten sideoppsett, tekst og logo innen kl. 17. Erklæring, åtte tjenester og referanseliste er godkjent."
+   "tekst": "53 rene bilder klipt ut av Ekers sider, oppskalert og lagt klare til Skriver 14:40. Ingen Eker-logo, overskrift eller salgstekst. Erklæring, åtte tjenester og referanseliste er godkjent.",
+   "ferdig": true
   },
   {
    "farge": "g",
@@ -430,9 +431,10 @@
  "agent": {
   "navn": "Skriver",
   "status": "succeeded",
-  "tekst": "ferdig kl. 14:13"
+  "tekst": "ferdig kl. 14:28"
  },
  "log": [
+  "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
@@ -443,8 +445,7 @@
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
   "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår.",
   "12.11 12:16 Bico har bestemt 5 mm plate på anleggsskiltene, slik Norsk Tippings vedlegg sier. Signex er spurt om levering.",
-  "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
-  "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt."
+  "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik."
  ],
- "oppdatert": "12.11.2026 kl. 14:18"
+ "oppdatert": "12.11.2026 kl. 14:33"
 }
