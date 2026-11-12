@@ -398,9 +398,10 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 12:23"
+  "tekst": "jobber nå, startet kl. 12:26"
  },
  "log": [
+  "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
   "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår.",
   "12.11 12:16 Bico har bestemt 5 mm plate på anleggsskiltene, slik Norsk Tippings vedlegg sier. Signex er spurt om levering.",
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
@@ -411,8 +412,7 @@
   "12.11 09:58 Mail sendt Herman om åtte tjenester.",
   "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene.",
   "12.11 09:48 Ny versjon bestilt: Eker leverer alle åtte tjenestene.",
-  "12.11 09:14 Einar fikk svar om ESPD.",
-  "11.11 17:15 Ekers forpliktelseserklæring godkjent."
+  "12.11 09:14 Einar fikk svar om ESPD."
  ],
- "oppdatert": "12.11.2026 kl. 12:23"
+ "oppdatert": "12.11.2026 kl. 12:26"
 }
