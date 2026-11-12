@@ -432,7 +432,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 16:57"
+  "tekst": "jobber nå, startet kl. 17:02"
  },
  "log": [
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
@@ -448,5 +448,5 @@
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring."
  ],
- "oppdatert": "12.11.2026 kl. 16:58"
+ "oppdatert": "12.11.2026 kl. 17:03"
 }
