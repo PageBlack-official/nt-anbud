@@ -452,7 +452,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 00:23"
+  "tekst": "jobber nå, startet kl. 00:29"
  },
  "log": [
   "13.11 00:07 Artifik melder at all påkrevd informasjon er fylt inn. Bilag 6 har fått med Verktøymakeren, og PRO SHOP har levert sin erklæring. Gjenstår: ESPD fra Verktøymakeren, signering og innsending.",
@@ -468,5 +468,5 @@
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp."
  ],
- "oppdatert": "13.11.2026 kl. 00:26"
+ "oppdatert": "13.11.2026 kl. 00:31"
 }
