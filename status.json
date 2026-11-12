@@ -5,7 +5,7 @@
  "selskap": [
   [
    "Bico",
-   39,
+   38,
    47
   ],
   [
@@ -15,7 +15,7 @@
   ],
   [
    "Eker",
-   10,
+   11,
    39
   ],
   [
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v12, 2026-11-12 09:44. Ingen stopp."
+   "tekst": "Stemplet på v12, 2026-11-12 10:24. Ingen stopp."
   },
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v12 ennå. Bestilt."
+   "tekst": "Kjørt på v12 av fersk agent. "
   },
   {
    "farge": "y",
@@ -397,5 +397,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 09:55"
+ "oppdatert": "12.11.2026 kl. 10:24"
 }
