@@ -397,10 +397,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 12:11"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 12:15"
  },
  "log": [
+  "12.11 12:16 Bico har bestemt 5 mm plate på anleggsskiltene, slik Norsk Tippings vedlegg sier. Signex er spurt om levering.",
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
   "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt.",
@@ -413,5 +414,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 12:12"
+ "oppdatert": "12.11.2026 kl. 12:15"
 }
