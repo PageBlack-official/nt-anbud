@@ -452,7 +452,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 23:38"
+  "tekst": "jobber nå, startet kl. 23:45"
  },
  "log": [
   "12.11 23:05 Låst versjon med ny formatering ligger i Artifik, og Einar har fått hele tilbudet som PDF. Gjenstår fredag: erklæringene fra PRO SHOP og Verktøymakeren, og innsending.",
@@ -468,5 +468,5 @@
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00."
  ],
- "oppdatert": "12.11.2026 kl. 23:41"
+ "oppdatert": "12.11.2026 kl. 23:46"
 }
