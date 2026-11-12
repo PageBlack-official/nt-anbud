@@ -1,5 +1,5 @@
 {
- "versjon": "v26",
+ "versjon": "v27",
  "aapne": 62,
  "bekreft": 119,
  "selskap": [
@@ -217,14 +217,14 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "g",
+   "farge": "r",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v26, 2026-11-12 13:42. Ingen stopp."
+   "tekst": "Ikke stemplet på v27 ennå."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v26 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v27 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -446,5 +446,5 @@
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt."
  ],
- "oppdatert": "12.11.2026 kl. 13:47"
+ "oppdatert": "12.11.2026 kl. 13:52"
 }
