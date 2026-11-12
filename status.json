@@ -431,8 +431,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 18:08"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 18:13"
  },
  "log": [
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
@@ -448,5 +448,5 @@
   "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag."
  ],
- "oppdatert": "12.11.2026 kl. 18:09"
+ "oppdatert": "12.11.2026 kl. 18:14"
 }
