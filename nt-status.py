@@ -56,6 +56,11 @@ def main():
             krav.append({"id": kid, "tittel": meta[0], "hvem": meta[1], "tekst": meta[2],
                          "aapne": 0, "bekreft": 0,
                          "stroket": len(re.findall(r"\[MANGLER", seksjon.group(0))) if seksjon else 0})
+            # Vegar 20:28: kortene maa vise det som FORTSATT mangler etter kveldens svar,
+            # ikke det som ble stroeket foer svarene kom. Overstyres i manuell-fila.
+            rest = man.get("stroket_rest", {})
+            if kid in rest:
+                krav[-1]["stroket"] = rest[kid]
         krav[0]["aapne"] += rest_a
         krav[0]["bekreft"] += rest_b
         t = ""
