@@ -268,7 +268,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 4
+   "stroket": 0
   },
   {
    "id": "R004",
@@ -286,13 +286,13 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 2
+   "stroket": 0
   },
   {
    "id": "R006",
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
-   "tekst": "Fem punkter venter på tall fra Signex: resirkulert andel, levetid over 20 år, blank ORAGUARD 290, prislikhet 2 mm og to referanser. Settes inn hvis de kommer før kl. 09:00.",
+   "tekst": "Fem punkter venter på tall fra Signex: resirkulert andel, levetid over 20 år, blank ORAGUARD 290, prislikhet 2 mm og to referanser. Settes inn hvis de kommer før kl. 09:00. Resten av kravet er komplett.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 5
@@ -304,7 +304,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 3
+   "stroket": 0
   },
   {
    "id": "R008",
@@ -331,7 +331,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 2
+   "stroket": 0
   },
   {
    "id": "R011",
@@ -340,7 +340,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 2
+   "stroket": 0
   },
   {
    "id": "R012",
@@ -358,7 +358,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 1
+   "stroket": 0
   },
   {
    "id": "R014",
@@ -376,7 +376,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 3
+   "stroket": 0
   },
   {
    "id": "R016",
@@ -385,7 +385,7 @@
    "tekst": "Besvart i kveld: dispenserplasten har ingen stoffer fra kandidatlisten over 0,1 prosent.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 1
+   "stroket": 0
   },
   {
    "id": "R017",
@@ -403,7 +403,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 2
+   "stroket": 0
   },
   {
    "id": "R019",
@@ -412,7 +412,7 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 2
+   "stroket": 0
   },
   {
    "id": "R020",
@@ -439,11 +439,11 @@
    "tekst": "Låst i kveld som Bicos forpliktelse, bygd på det Norsk Tipping ber om.",
    "aapne": 0,
    "bekreft": 0,
-   "stroket": 2
+   "stroket": 0
   }
  ],
  "fremdrift": {
-  "krav_ferdig": 10,
+  "krav_ferdig": 21,
   "krav_alle": 22,
   "fylt": 100,
   "bekreftet": 155,
@@ -451,8 +451,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 00:05"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 00:07"
  },
  "log": [
   "13.11 00:07 Artifik melder at all påkrevd informasjon er fylt inn. Bilag 6 har fått med Verktøymakeren, og PRO SHOP har levert sin erklæring. Gjenstår: ESPD fra Verktøymakeren, signering og innsending.",
