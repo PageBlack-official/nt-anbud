@@ -1,6 +1,6 @@
 {
- "versjon": "v21",
- "aapne": 61,
+ "versjon": "v22",
+ "aapne": 63,
  "bekreft": 118,
  "selskap": [
   [
@@ -10,12 +10,12 @@
   ],
   [
    "Signex",
-   25,
+   26,
    65
   ],
   [
    "Eker",
-   2,
+   3,
    0
   ],
   [
@@ -29,39 +29,64 @@
  "fast": [
   {
    "farge": "y",
-   "tittel": "Fersk faktasjekk på hele teksten",
-   "hvem": "Skriver",
-   "tekst": "Bestilt 09:48. En ny agent uten forhistorie leser hele teksten mot kildene. Siste uavhengige sjekk var på v9."
-  },
-  {
-   "farge": "y",
-   "tittel": "Eker retter erklæringen til åtte tjenester",
-   "hvem": "Eker",
-   "tekst": "Erklæringen som ble signert i går, lister seks tjenester. Teksten sier åtte. Mail sendt Herman kl. 09:58. Bård må signere på nytt."
-  },
-  {
-   "farge": "y",
-   "tittel": "3D-delen av grafisk design",
-   "hvem": "Eker",
-   "tekst": "Eker oppgir verktøy og ett oppdrag som viser 3D-arbeidet. Spurt i samme mail til Herman."
-  },
-  {
-   "farge": "y",
-   "tittel": "Godkjenn og flytt Ekers åtte filer",
-   "hvem": "Vakta",
-   "tekst": "Jan Kristian lastet opp én presentasjon per tjeneste i går. De ligger i innboksen og er ikke kontrollert."
-  },
-  {
-   "farge": "y",
-   "tittel": "Signex-databladet får riktig navn",
-   "hvem": "Vakta",
-   "tekst": "Innholdet er godkjent. Fila må døpes om og flyttes, fordi R006 og R010 viser til den."
-  },
-  {
-   "farge": "y",
    "tittel": "Filnavnene rettes til Norsk Tippings",
    "hvem": "Claude",
-   "tekst": "Gjøres på de ferdige filene rett før de går til Einar."
+   "tekst": "Planlagt i kveld, når teksten er låst. Da får de ferdige filene nøyaktig NTs navn, for eksempel «Bilag 2 Lev løsningsspes.DOCX». Gjøres ikke før, fordi Skriver bygger nye versjoner hele dagen."
+  },
+  {
+   "farge": "y",
+   "tittel": "Bilag 6 rettes",
+   "hvem": "Claude",
+   "tekst": "Bico sendte det utfylt 12:24. Eker Group rettes til Eker Design (bekreftet av Einar), og telefonnumrene får +47. Venter på svar om kontaktperson: Odd eller Einar."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Fersk faktasjekk på hele teksten",
+   "hvem": "Skriver",
+   "tekst": "Kjørt på v12 i to runder. Funnene er ført inn i de neste versjonene."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Eker retter erklæringen til åtte tjenester",
+   "hvem": "Eker",
+   "tekst": "Ny erklæring med alle åtte tjenester, signert av Bård 12.11, godkjent 12:42."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "3D-delen av grafisk design",
+   "hvem": "Eker",
+   "tekst": "Avklart 12:18: 3D-visualisering dekkes av renderingstjenesten."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Ekers referanser",
+   "hvem": "Eker",
+   "tekst": "Referanseliste med kontaktperson, verdi og årstall for alle tjenestene, og ja på alle Ekers setninger."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Signex-databladet har riktig navn",
+   "hvem": "Vakta",
+   "tekst": "Ligger i Signex/04 Kapasitet med samme navn som R006 og R010 viser til."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Platetykkelsen avklart",
+   "hvem": "Bico",
+   "tekst": "Bico tilbyr 5 mm, slik Norsk Tippings vedlegg sier. Ingen avvik i tilbudsbrevet."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Opplastingslenkene åpne igjen",
+   "hvem": "Claude",
+   "tekst": "Lenkene til Bico, Signex og Eker virker igjen til fredag."
   },
   {
    "farge": "g",
@@ -94,27 +119,34 @@
   },
   {
    "farge": "r",
-   "tittel": "ESPD i Artifik for Bico, Signex og Eker",
+   "tittel": "To nye underleverandører må ha erklæring og ESPD",
    "hvem": "Bico",
-   "tekst": "Ingen er bekreftet levert. Signex og Eker legges inn som underleverandører i Artifik, så de får sitt eget skjema."
+   "tekst": "Bico støtter seg på Reklamepartner og Verktøymakeren i Lillesand. Begge må signere forpliktelseserklæring og svare på ESPD i Artifik i dag."
   },
   {
-   "farge": "r",
+   "farge": "y",
+   "tittel": "ESPD i Artifik",
+   "hvem": "Bico",
+   "tekst": "Eker er ferdig og godkjent. Bico og Signex er ikke bekreftet ennå, og de to nye underleverandørene må inviteres."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "De absolutte kravene R002 og R017",
+   "hvem": "Bico",
+   "tekst": "Bekreftet 12:24 og 12:26: låseplatene kommer fra Schafer Systems, og reservedeler i ti år."
+  },
+  {
+   "farge": "y",
    "tittel": "Bicos åpne punkter og ja eller nei",
    "hvem": "Bico",
-   "tekst": "Støpeverktøy, klimarapport, retur, lager og reklamasjon. Spørsmålene står ferdig formulert nederst i mangellista."
+   "tekst": "Platetykkelse, R002, R017 og Bilag 6 er besvart. Resten står i lista Einar fikk 11:14."
   },
   {
    "farge": "r",
    "tittel": "Tilbudsbrevet signert",
    "hvem": "Bico",
-   "tekst": "Mangler adresse, mobil til kontaktpersonen og signatur av to styremedlemmer eller prokurist."
-  },
-  {
-   "farge": "r",
-   "tittel": "Bilag 6 fylt ut",
-   "hvem": "Bico",
-   "tekst": "Kontaktpersonene i avtalen. Ikke mottatt."
+   "tekst": "Kontaktopplysningene er ført inn. Mangler adresse og signatur av to styremedlemmer eller prokurist."
   },
   {
    "farge": "r",
@@ -134,7 +166,7 @@
    "farge": "y",
    "tittel": "Tilbudsbrev",
    "hvem": "Bico",
-   "tekst": "Skrevet. Mangler adresse, mobil og signatur."
+   "tekst": "Skrevet, med kontaktopplysninger. Mangler adresse og signatur."
   },
   {
    "farge": "r",
@@ -143,16 +175,16 @@
    "tekst": "Seks ark. Ikke mottatt utfylt."
   },
   {
-   "farge": "r",
+   "farge": "y",
    "tittel": "Bilag 6, administrative bestemmelser",
    "hvem": "Bico",
-   "tekst": "Ikke mottatt."
+   "tekst": "Mottatt fra Bico 12:24. To små rettinger og ett spørsmål om kontaktperson."
   },
   {
-   "farge": "r",
+   "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Bico, Signex og Eker. Ingen bekreftet levert."
+   "tekst": "Eker ferdig. Bico og Signex ikke bekreftet. To nye underleverandører må inviteres."
   },
   {
    "farge": "r",
@@ -163,8 +195,8 @@
   {
    "farge": "y",
    "tittel": "Forpliktelseserklæringer",
-   "hvem": "Eker",
-   "tekst": "Signex er signert og godkjent. Ekers er signert, men må rettes fra seks til åtte tjenester."
+   "hvem": "Bico",
+   "tekst": "Signex og Eker er signert og godkjent. Reklamepartner og Verktøymakeren mangler."
   },
   {
    "farge": "g",
@@ -187,12 +219,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v21, 2026-11-12 12:41. Ingen stopp."
+   "tekst": "Stemplet på v22, 2026-11-12 12:46. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v21 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v22 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -248,7 +280,7 @@
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Eker og Signex",
    "tekst": "Ekers prosess og testserier er inne. Avsnittet om konsulentenes møtepunkter er skrevet og skal bekreftes.",
-   "aapne": 3,
+   "aapne": 5,
    "bekreft": 12
   },
   {
@@ -391,16 +423,17 @@
  "fremdrift": {
   "krav_ferdig": 9,
   "krav_alle": 22,
-  "fylt": 66,
+  "fylt": 65,
   "bekreftet": 37,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 12:38"
+  "tekst": "jobber nå, startet kl. 12:42"
  },
  "log": [
+  "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
@@ -411,8 +444,7 @@
   "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt.",
   "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet.",
   "12.11 10:27 Statussiden lagt ut.",
-  "12.11 09:58 Mail sendt Herman om åtte tjenester.",
-  "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene."
+  "12.11 09:58 Mail sendt Herman om åtte tjenester."
  ],
- "oppdatert": "12.11.2026 kl. 12:42"
+ "oppdatert": "12.11.2026 kl. 12:46"
 }
