@@ -1,12 +1,12 @@
 {
- "versjon": "v20",
+ "versjon": "v21",
  "aapne": 61,
- "bekreft": 117,
+ "bekreft": 118,
  "selskap": [
   [
    "Bico",
-   33,
-   50
+   34,
+   51
   ],
   [
    "Signex",
@@ -15,7 +15,7 @@
   ],
   [
    "Eker",
-   3,
+   2,
    0
   ],
   [
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v20, 2026-11-12 12:36. Ingen stopp."
+   "tekst": "Stemplet på v21, 2026-11-12 12:41. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v20 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v21 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -248,8 +248,8 @@
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Eker og Signex",
    "tekst": "Ekers prosess og testserier er inne. Avsnittet om konsulentenes møtepunkter er skrevet og skal bekreftes.",
-   "aapne": 2,
-   "bekreft": 11
+   "aapne": 3,
+   "bekreft": 12
   },
   {
    "id": "R006",
@@ -296,7 +296,7 @@
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
    "tekst": "Eker leverer alle åtte. Mangler år, verdi og kontaktperson på flere referanser, og 3D-delen av grafisk design.",
-   "aapne": 4,
+   "aapne": 3,
    "bekreft": 1
   },
   {
@@ -392,13 +392,13 @@
   "krav_ferdig": 9,
   "krav_alle": 22,
   "fylt": 66,
-  "bekreftet": 38,
+  "bekreftet": 37,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 12:37"
+  "tekst": "jobber nå, startet kl. 12:38"
  },
  "log": [
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
@@ -414,5 +414,5 @@
   "12.11 09:58 Mail sendt Herman om åtte tjenester.",
   "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene."
  ],
- "oppdatert": "12.11.2026 kl. 12:37"
+ "oppdatert": "12.11.2026 kl. 12:42"
 }
