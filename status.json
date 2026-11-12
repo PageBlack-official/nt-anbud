@@ -1,12 +1,12 @@
 {
- "versjon": "v23",
- "aapne": 63,
- "bekreft": 118,
+ "versjon": "v25",
+ "aapne": 62,
+ "bekreft": 119,
  "selskap": [
   [
    "Bico",
-   34,
-   51
+   33,
+   52
   ],
   [
    "Signex",
@@ -217,14 +217,14 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "g",
+   "farge": "r",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v23, 2026-11-12 12:54. Ingen stopp."
+   "tekst": "Ikke stemplet på v25 ennå."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v23 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v25 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -344,8 +344,8 @@
    "tittel": "Leverandørskifte",
    "hvem": "Bico",
    "tekst": "Bicos egen tekst er inne. Mangler timetall for bistand og hvem som flytter verktøyene.",
-   "aapne": 3,
-   "bekreft": 15
+   "aapne": 2,
+   "bekreft": 16
   },
   {
    "id": "R014",
@@ -423,14 +423,14 @@
  "fremdrift": {
   "krav_ferdig": 9,
   "krav_alle": 22,
-  "fylt": 65,
-  "bekreftet": 37,
+  "fylt": 66,
+  "bekreftet": 36,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 13:17"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 13:26"
  },
  "log": [
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
@@ -446,5 +446,5 @@
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
   "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt."
  ],
- "oppdatert": "12.11.2026 kl. 13:17"
+ "oppdatert": "12.11.2026 kl. 13:27"
 }
