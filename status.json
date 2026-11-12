@@ -3,7 +3,7 @@
  "aapne": 0,
  "bekreft": 0,
  "selskap": [],
- "ingress": "Konseptelementer for fysiske arenaer. Løsningsspesifikasjonen har vært gjennom jury, ny leser og vekting i kveld, og scoren på kvalitet og miljø gikk fra 38 til nær 54 av 65. Den ligger i Artifik med ny formatering, sammen med signert tilbudsbrev og rettet prismatrise. Einar har fått hele tilbudet som PDF med lista over det Bico lover. Fredag: erklæringene fra PRO SHOP og Verktøymakeren, gjennomgang og innsending før kl. 10:00.",
+ "ingress": "Konseptelementer for fysiske arenaer. Alt Norsk Tipping krever, ligger i Artifik, og Artifik melder at all påkrevd informasjon er fylt inn. Løsningsspesifikasjonen har vært gjennom jury, ny leser og vekting i flere runder i kvelden. Gjenstår fredag morgen: ESPD fra Verktøymakeren, Einars siste gjennomgang, og signering og innsending før kl. 10:00.",
  "frist": "Fre 10:00",
  "fast": [
   {
@@ -96,14 +96,7 @@
    "farge": "g",
    "tittel": "Full kontroll av teksten",
    "hvem": "Skriver",
-   "tekst": "Jury, ny leser, låsing av strøkne punkter, KI-sensur og stresstest mot vektingen. 25 av 30 strøkne punkter er låst. Ny versjon scorer 53,7 mot 48,6.",
-   "ferdig": true
-  },
-  {
-   "farge": "g",
-   "tittel": "Hele tilbudet til Einar som PDF",
-   "hvem": "Claude",
-   "tekst": "Sendt kl. 23:02, med lista over hva Bico lover og hva som må være på plass før første bestilling.",
+   "tekst": "Jury, ny leser, låsing av strøkne punkter, KI-sensur og stresstest mot vektingen, i flere runder. Siste versjon har frister for reklamasjon, priset retur og refoliering, og konsulenttjenestene knyttet til Norsk Tippings egne behov.",
    "ferdig": true
   },
   {
@@ -114,16 +107,16 @@
    "ferdig": true
   },
   {
-   "farge": "r",
+   "farge": "y",
    "tittel": "To nye underleverandører må ha erklæring og ESPD",
    "hvem": "Bico",
-   "tekst": "PRO SHOP har levert ESPD i Artifik. Gjenstår: PRO SHOPs signerte forpliktelseserklæring, og forpliktelseserklæring og ESPD fra Verktøymakeren."
+   "tekst": "PRO SHOP har levert ESPD og signert forpliktelseserklæring, og begge ligger i Artifik. Verktøymakeren står fortsatt som invitert og mangler ESPD."
   },
   {
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Bico har fylt ut sin del, og Eker, PRO SHOP og Signex har levert. Bare Verktøymakeren står igjen som invitert."
+   "tekst": "Bico, Eker, Signex og PRO SHOP har levert. Verktøymakeren står som invitert."
   },
   {
    "farge": "g",
@@ -152,6 +145,13 @@
    "hvem": "Claude",
    "tekst": "Versjon 40 har ingen markører. Den sladdede versjonen er laget av samme versjon, og begge ligger i Artifik.",
    "ferdig": true
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Hele tilbudet til Einar som PDF",
+   "hvem": "Claude",
+   "tekst": "Sendt 23:55 med siste versjon, og lista over hva Bico lover."
   }
  ],
  "parts": [
@@ -159,7 +159,7 @@
    "farge": "g",
    "tittel": "Bilag 2, løsningsspesifikasjonen",
    "hvem": "Skriver",
-   "tekst": "Versjon 40 med svarene fra møtet i kveld. Lastet opp i Artifik 21:13 med Norsk Tippings filnavn."
+   "tekst": "Siste versjon ligger i Artifik med Norsk Tippings filnavn, satt i Word med lik formatering i hele dokumentet."
   },
   {
    "farge": "g",
@@ -172,13 +172,13 @@
    "farge": "g",
    "tittel": "Bilag 7, prismatrisen",
    "hvem": "Bico",
-   "tekst": "Oppdatert etter møtet i kveld og lastet opp i Artifik 20:44."
+   "tekst": "Oppdatert etter møtet i kveld, og en løs verdi som ikke hørte hjemme i arket er fjernet. Lastet opp i Artifik."
   },
   {
    "farge": "g",
    "tittel": "Bilag 6, administrative bestemmelser",
    "hvem": "Bico",
-   "tekst": "Ferdig utfylt. Einar er kontaktperson, PRO SHOP AS med riktig org.nr. Lastet opp i Artifik."
+   "tekst": "Ferdig utfylt med alle fire underleverandører, også Verktøymakeren. Lastet opp i Artifik."
   },
   {
    "farge": "y",
@@ -190,13 +190,13 @@
    "farge": "g",
    "tittel": "Sladdet versjon",
    "hvem": "Skriver",
-   "tekst": "Laget av versjon 40 og lastet opp i Artifik 21:13. Oppdragsverdier, telefonnumre og e-postadresser er sladdet, og sidene er lagret som bilder."
+   "tekst": "Laget av siste versjon og lagret som bilder, slik Norsk Tipping krever. Oppdragsverdier, telefonnumre og e-postadresser er sladdet og kontrollert."
   },
   {
    "farge": "y",
    "tittel": "Forpliktelseserklæringer",
    "hvem": "Bico",
-   "tekst": "Signex og Eker er signert og godkjent. PRO SHOP og Verktøymakeren mangler."
+   "tekst": "Signex, Eker og PRO SHOP er signert og ligger i Artifik. Verktøymakeren mangler."
   },
   {
    "farge": "g",
@@ -455,6 +455,7 @@
   "tekst": "ferdig kl. 00:05"
  },
  "log": [
+  "13.11 00:15 Artifik melder at all påkrevd informasjon er fylt inn. Bilag 6 har fått med Verktøymakeren, og PRO SHOP har levert sin erklæring. Gjenstår: ESPD fra Verktøymakeren, signering og innsending.",
   "12.11 23:05 Låst versjon med ny formatering ligger i Artifik, og Einar har fått hele tilbudet som PDF. Gjenstår fredag: erklæringene fra PRO SHOP og Verktøymakeren, og innsending.",
   "12.11 22:05 Versjon 40 går gjennom hele kontrollen på nytt før den regnes som ferdig. Strøkne punkter låses med det vi vet. Ny versjon før 23:30.",
   "12.11 21:48 Versjon 40 av løsningsspesifikasjonen og den sladdede versjonen er byttet inn i Artifik. Fem filer ligger der. Gjenstår: erklæringene fra PRO SHOP og Verktøymakeren.",
@@ -465,8 +466,7 @@
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
-  "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
-  "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00."
+  "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp."
  ],
  "oppdatert": "13.11.2026 kl. 00:06"
 }
