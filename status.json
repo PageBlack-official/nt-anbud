@@ -1,29 +1,8 @@
 {
- "versjon": "v33",
- "aapne": 47,
- "bekreft": 120,
- "selskap": [
-  [
-   "Bico",
-   22,
-   53
-  ],
-  [
-   "Signex",
-   23,
-   65
-  ],
-  [
-   "Eker",
-   2,
-   0
-  ],
-  [
-   "Vegar",
-   0,
-   2
-  ]
- ],
+ "versjon": "v34",
+ "aapne": 31,
+ "bekreft": 128,
+ "selskap": [],
  "ingress": "Konseptelementer for fysiske arenaer. Ferdige dokumenter til Einar torsdag kl. 23:59, og Einar sender inn fredag før kl. 10:00.",
  "frist": "23:59",
  "fast": [
@@ -219,14 +198,14 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "g",
+   "farge": "r",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v33, 2026-11-12 17:20. Ingen stopp."
+   "tekst": "Ikke stemplet på v34 ennå."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v33 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v34 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -266,7 +245,7 @@
    "tittel": "Endring av støpeverktøy",
    "hvem": "Bico",
    "tekst": "Norsk Tipping har svart: de eier støpeverktøyene, og ingen produksjonsfiler følger med. Mangler fra Bico: stegene fram til godkjent prøveserie, to eller tre tidligere verktøyendringer, og verktøytype for 6253.",
-   "aapne": 5,
+   "aapne": 4,
    "bekreft": 4
   },
   {
@@ -282,15 +261,15 @@
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Bico, Signex og Eker",
    "tekst": "Mangler: Verktøymakerens og PRO SHOPs andel av volumet, eierstruktur i Signex og Eker, og svartid fra Bico.",
-   "aapne": 5,
-   "bekreft": 12
+   "aapne": 2,
+   "bekreft": 13
   },
   {
    "id": "R006",
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
    "tekst": "Norsk Tipping har svart om målene. Mangler fra Signex: mål og toleranser, korrekturrutine, holdbarhet for trykt folie, resirkulert andel og antall skilt i referansene.",
-   "aapne": 12,
+   "aapne": 6,
    "bekreft": 15
   },
   {
@@ -322,7 +301,7 @@
    "tittel": "Foliering",
    "hvem": "Signex",
    "tekst": "Mangler fra Signex: produktnavn for mellomklassen, vedlikeholdsanvisningen og testmetoden.",
-   "aapne": 3,
+   "aapne": 2,
    "bekreft": 7
   },
   {
@@ -330,7 +309,7 @@
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
    "tekst": "Ferdig fra Eker: alle åtte tjenester med referanser, og Norsk Tipping godtar referanser fra underleverandører. To småopplysninger om BANO strykes hvis de ikke kommer i kveld.",
-   "aapne": 3,
+   "aapne": 2,
    "bekreft": 1
   },
   {
@@ -346,7 +325,7 @@
    "tittel": "Leverandørskifte",
    "hvem": "Bico",
    "tekst": "Norsk Tipping har svart om verktøyene. Mangler fra Bico: hvem som frakter støpeverktøyene og tar kostnaden. Timetallet for bistand er avklart.",
-   "aapne": 2,
+   "aapne": 1,
    "bekreft": 16
   },
   {
@@ -386,7 +365,7 @@
    "tittel": "Retur og gjenvinning",
    "hvem": "Bico og Signex",
    "tekst": "Avtalen med Norsk Gjenvinning er inne. Mangler fra Bico: mottaker for plast og metall, og hva vurderingen av eksisterende utstyr bygger på.",
-   "aapne": 4,
+   "aapne": 3,
    "bekreft": 11
   },
   {
@@ -410,7 +389,7 @@
    "tittel": "Lager og utsendelse",
    "hvem": "Bico",
    "tekst": "Opsjon. Teksten er skrevet, Bico bekrefter.",
-   "aapne": 1,
+   "aapne": 0,
    "bekreft": 10
   },
   {
@@ -418,15 +397,15 @@
    "tittel": "Pris",
    "hvem": "Bico",
    "tekst": "Prismatrisen er levert. Norsk Tipping har svart at produktene uten prislinje ikke skal prises. Gjenstår: om refoliering skal ha egen pris.",
-   "aapne": 9,
+   "aapne": 2,
    "bekreft": 2
   }
  ],
  "fremdrift": {
-  "krav_ferdig": 9,
+  "krav_ferdig": 10,
   "krav_alle": 22,
-  "fylt": 72,
-  "bekreftet": 35,
+  "fylt": 81,
+  "bekreftet": 27,
   "bekreft_alle": 155
  },
  "agent": {
@@ -448,5 +427,5 @@
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting."
  ],
- "oppdatert": "12.11.2026 kl. 17:56"
+ "oppdatert": "12.11.2026 kl. 17:57"
 }
