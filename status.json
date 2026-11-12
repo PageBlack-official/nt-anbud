@@ -37,7 +37,7 @@
    "farge": "g",
    "tittel": "Bilag 6 rettet",
    "hvem": "Claude",
-   "tekst": "Eker Design, +47 på telefonnumrene og Einar som kontaktperson (Einar 12:43). Reklamepartner står med akrylskilt, magnetfolie og andre plastskilt.",
+   "tekst": "Eker Design, +47 på telefonnumrene og Einar som kontaktperson. PRO SHOP AS står med riktig org.nr., bekreftet av Einar 13:04.",
    "ferdig": true
   },
   {
@@ -121,7 +121,7 @@
    "farge": "r",
    "tittel": "To nye underleverandører må ha erklæring og ESPD",
    "hvem": "Bico",
-   "tekst": "Reklamepartner leverer akrylskilt, magnetfolie og andre plastskilt. Begge, også Verktøymakeren i Lillesand, må signere forpliktelseserklæring og svare på ESPD i Artifik i dag. Org.nr for Verktøymakeren mangler."
+   "tekst": "PRO SHOP AS leverer akrylskilt, magnetfolie og andre plastskilt (org.nr. bekreftet 13:04). Både PRO SHOP og Verktøymakeren i Lillesand må signere forpliktelseserklæring og svare på ESPD i Artifik i dag."
   },
   {
    "farge": "y",
@@ -140,7 +140,7 @@
    "farge": "y",
    "tittel": "Bicos åpne punkter og ja eller nei",
    "hvem": "Bico",
-   "tekst": "Platetykkelse, R002, R017, Bilag 6 og kontaktperson er besvart. Resten står i lista Einar fikk 11:14."
+   "tekst": "Besvart: platetykkelse, R002, R017, Bilag 6, kontaktperson, PRO SHOP og 20 timer bistand ved leverandørskifte. Gjenstår: hvem som frakter støpeverktøyene, og resten av lista fra 11:14."
   },
   {
    "farge": "r",
@@ -178,7 +178,7 @@
    "farge": "g",
    "tittel": "Bilag 6, administrative bestemmelser",
    "hvem": "Bico",
-   "tekst": "Ferdig utfylt. Einar er kontaktperson."
+   "tekst": "Ferdig utfylt. Einar er kontaktperson, PRO SHOP AS med riktig org.nr."
   },
   {
    "farge": "y",
@@ -196,7 +196,7 @@
    "farge": "y",
    "tittel": "Forpliktelseserklæringer",
    "hvem": "Bico",
-   "tekst": "Signex og Eker er signert og godkjent. Reklamepartner og Verktøymakeren mangler."
+   "tekst": "Signex og Eker er signert og godkjent. PRO SHOP og Verktøymakeren mangler."
   },
   {
    "farge": "g",
@@ -429,10 +429,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "scheduled_retry",
-  "tekst": "scheduled_retry"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 13:17"
  },
  "log": [
+  "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
   "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn.",
   "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
@@ -443,8 +444,7 @@
   "12.11 12:16 Bico har bestemt 5 mm plate på anleggsskiltene, slik Norsk Tippings vedlegg sier. Signex er spurt om levering.",
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
-  "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt.",
-  "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet."
+  "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt."
  ],
- "oppdatert": "12.11.2026 kl. 13:07"
+ "oppdatert": "12.11.2026 kl. 13:17"
 }
