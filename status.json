@@ -185,9 +185,9 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "r",
+   "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Ikke stemplet på v15 ennå."
+   "tekst": "Stemplet på v15, 2026-11-12 11:31. Ingen stopp."
   },
   {
    "farge": "y",
@@ -398,7 +398,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 11:29"
+  "tekst": "jobber nå, startet kl. 11:35"
  },
  "log": [
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
@@ -412,5 +412,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 11:31"
+ "oppdatert": "12.11.2026 kl. 11:36"
 }
