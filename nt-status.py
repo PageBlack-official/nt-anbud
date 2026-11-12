@@ -39,8 +39,25 @@ def main():
     if n is None:
         sys.exit("fant ingen versjon med tekstfil")
     t = les(tekstfil(n))
-    krav = []
-    for del_ in re.split(r"\n(?=## R0\d\d)", t):
+    # ENDELIG (12.11 18:40, Vegar: siden var ikke ajour etter kuttet). Finnes den endelige
+    # teksten og er den nyere enn siste versjon, er det DEN som gjelder: kuttet har fjernet
+    # alle markoerer, og tallene fra foer kuttet er ikke lenger sanne.
+    END = os.path.join(BESV, "bilag2-endelig-tekst.md")
+    endelig = os.path.exists(END) and os.path.getmtime(END) >= os.path.getmtime(tekstfil(n))
+    if endelig:
+        et = les(END)
+        rest_a, rest_b = len(re.findall(r"\[MANGLER", et)), len(re.findall(r"\[bekreftes", et))
+        krav = []
+        for kid in sorted(man.get("krav", {})):
+            meta = man["krav"][kid]
+            krav.append({"id": kid, "tittel": meta[0], "hvem": meta[1], "tekst": meta[2],
+                         "aapne": 0, "bekreft": 0})
+        krav[0]["aapne"] += rest_a
+        krav[0]["bekreft"] += rest_b
+        t = ""
+    else:
+        krav = []
+    for del_ in ([] if endelig else re.split(r"\n(?=## R0\d\d)", t)):
         m = re.match(r"## (R0\d\d)", del_)
         if not m:
             continue
@@ -53,7 +70,7 @@ def main():
     bekreft = sum(k["bekreft"] for k in krav)
     selskap = []
     ml = os.path.join(BESV, "mangelliste-NT-v%d.md" % n)
-    if os.path.exists(ml):
+    if os.path.exists(ml) and not endelig:
         mt = les(ml)
         m = re.search(r"\*\*(\d+) åpne punkter og (\d+) bekreftelser", mt)
         if m:
@@ -62,12 +79,12 @@ def main():
             selskap.append([navn.strip(), int(a), int(b)])
 
     sensur = {"farge": "r", "tekst": "Ikke stemplet på v%d ennå." % n}
-    for sp in (os.path.join(BESV, "_bygg", "v%d" % n, "bilag2-v%d-tekst.md.stempel.json" % n),
-               ml + ".stempel.json"):
+    for sp in ([END + ".stempel.json"] if endelig else []) + [os.path.join(BESV, "_bygg", "v%d" % n, "bilag2-v%d-tekst.md.stempel.json" % n),
+               ml + ".stempel.json"]:
         if os.path.exists(sp):
             try:
                 tid = json.loads(les(sp)).get("tid", "")
-                sensur = {"farge": "g", "tekst": "Stemplet på v%d, %s. Ingen stopp." % (n, tid)}
+                sensur = {"farge": "g", "tekst": ("Stemplet på den endelige teksten, %s. Ingen stopp." % tid) if endelig else ("Stemplet på v%d, %s. Ingen stopp." % (n, tid))}
                 break
             except Exception:
                 pass
@@ -88,6 +105,9 @@ def main():
             c.update(sensur)
         if c.get("id") == "fakta":
             c.update(fakta)
+            if endelig and c.get("tekst_endelig"):
+                c.update(farge="g", tekst=c["tekst_endelig"])
+        c.pop("tekst_endelig", None)
         c.pop("id", None)
         checks.append(c)
 
@@ -133,7 +153,9 @@ def main():
         G["agent_sist"] = agent
         with open(gl, "w") as f:
             json.dump(G, f)
-    D = {"versjon": "v%d" % n, "aapne": aapne, "bekreft": bekreft, "selskap": selskap,
+    if endelig:
+        fremdrift["bekreftet"] = fremdrift["bekreft_alle"]
+    D = {"versjon": ("Endelig" if endelig else "v%d" % n), "aapne": aapne, "bekreft": bekreft, "selskap": selskap,
          "ingress": man.get("ingress", ""), "frist": man.get("frist", ""),
          "fast": man.get("fast", []), "crit": man.get("crit", []), "parts": man.get("parts", []),
          "checks": checks, "krav": krav, "fremdrift": fremdrift, "agent": agent, "log": man.get("log", [])[:12]}

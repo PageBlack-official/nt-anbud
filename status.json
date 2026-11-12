@@ -1,30 +1,9 @@
 {
- "versjon": "v34",
- "aapne": 39,
- "bekreft": 120,
- "selskap": [
-  [
-   "Bico",
-   21,
-   53
-  ],
-  [
-   "Signex",
-   16,
-   65
-  ],
-  [
-   "Eker",
-   2,
-   0
-  ],
-  [
-   "Vegar",
-   0,
-   2
-  ]
- ],
- "ingress": "Konseptelementer for fysiske arenaer. Ferdige dokumenter til Einar torsdag kl. 23:59, og Einar sender inn fredag før kl. 10:00.",
+ "versjon": "Endelig",
+ "aapne": 0,
+ "bekreft": 0,
+ "selskap": [],
+ "ingress": "Konseptelementer for fysiske arenaer. Den endelige teksten er låst kl. 18:05 og ligger i Artifik. Det som gjenstår, er signatur og svar fra underleverandørene, og det ligger hos Bico. Einar sender inn fredag før kl. 10:00.",
  "frist": "23:59",
  "fast": [
   {
@@ -140,10 +119,11 @@
    "tekst": "Bekreftet 12:24 og 12:26: låseplatene kommer fra Schafer Systems, og reservedeler i ti år."
   },
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Bicos åpne punkter og ja eller nei",
    "hvem": "Bico",
-   "tekst": "Besvart: platetykkelse, R002, R017, Bilag 6, kontaktperson, PRO SHOP og 20 timer bistand ved leverandørskifte. Gjenstår: hvem som frakter støpeverktøyene, og resten av lista fra 11:14."
+   "tekst": "Lukket. Det som sto i Bicos egne dokumenter er skrevet inn, og resten ble strøket ved kuttet kl. 18:05.",
+   "ferdig": true
   },
   {
    "farge": "r",
@@ -221,14 +201,14 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "r",
+   "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Ikke stemplet på v34 ennå."
+   "tekst": "Stemplet på den endelige teksten, 2026-11-12 18:07. Ingen stopp."
   },
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v34 ennå. Bestilt."
+   "tekst": "Skriver faktasjekket teksten mot kildene før kuttet 17:56. Ett funn, rettet før kuttet."
   },
   {
    "farge": "y",
@@ -251,7 +231,7 @@
    "id": "R001",
    "tittel": "Norsk arbeidsspråk",
    "hvem": "Bico",
-   "tekst": "A-krav. Ferdig.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
    "bekreft": 0
   },
@@ -259,7 +239,7 @@
    "id": "R002",
    "tittel": "Alle produkter i Vedlegg 1",
    "hvem": "Bico",
-   "tekst": "A-krav. Ferdig, låseplatene fra Schafer Systems er bekreftet.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
    "bekreft": 0
   },
@@ -267,176 +247,177 @@
    "id": "R003",
    "tittel": "Endring av støpeverktøy",
    "hvem": "Bico",
-   "tekst": "Norsk Tipping har svart: de eier støpeverktøyene, og ingen produksjonsfiler følger med. Mangler fra Bico: stegene fram til godkjent prøveserie, to eller tre tidligere verktøyendringer, og verktøytype for 6253.",
-   "aapne": 4,
-   "bekreft": 4
+   "tekst": "Ferdig i den endelige teksten. 4 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R004",
    "tittel": "Skilt med og uten lys",
    "hvem": "Signex",
-   "tekst": "A-krav. Én setning venter på ja fra Signex.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R005",
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Bico, Signex og Eker",
-   "tekst": "Signex er ferdig. Mangler fra Bico: Verktøymakerens og PRO SHOPs andel av volumet, og svartiden. Strykes ved kuttet kl. 21:00 hvis de ikke kommer.",
-   "aapne": 2,
-   "bekreft": 13
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R006",
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
-   "tekst": "Lukket fra Signex' egne dokumenter: mål, korrektur, korrosjon, holdbarhet for trykt folie og antall skilt. Strykes ved kuttet: resirkulert andel, levetid ut over 20 år for massiv aluminium, og Watrium og Nasjonalmuseet.",
-   "aapne": 6,
-   "bekreft": 15
+   "tekst": "Ferdig i den endelige teksten. 6 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R007",
    "tittel": "Emballasje",
    "hvem": "Signex",
-   "tekst": "Pakkingen er beskrevet ut fra Signex' eget dokument. Strykes ved kuttet: pappkvalitet, andel resirkulert fiber og tall for transportskader, som Signex ikke har oppgitt.",
-   "aapne": 3,
-   "bekreft": 9
+   "tekst": "Ferdig i den endelige teksten. 3 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R008",
    "tittel": "Folie i hele Norge",
    "hvem": "Signex",
-   "tekst": "A-krav. Én setning venter på ja fra Signex.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R009",
    "tittel": "Montering av folie",
    "hvem": "Signex",
-   "tekst": "A-krav. Én setning venter på ja fra Signex.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R010",
    "tittel": "Foliering",
    "hvem": "Signex",
-   "tekst": "Lukket: produktnavnene i mellomklassen. Strykes ved kuttet: egen vedlikeholdsanvisning og testmetode der prøvefelt ikke er praktisk.",
-   "aapne": 2,
-   "bekreft": 7
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R011",
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
-   "tekst": "Ferdig fra Eker: alle åtte tjenester med referanser og ett bilde per tjeneste, unntatt BANO. To småopplysninger om BANO strykes ved kuttet.",
-   "aapne": 2,
-   "bekreft": 1
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R012",
    "tittel": "Reklamasjon",
    "hvem": "Bico",
-   "tekst": "Teksten er skrevet. Bico bekrefter setningene.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 12
+   "bekreft": 0
   },
   {
    "id": "R013",
    "tittel": "Leverandørskifte",
    "hvem": "Bico",
-   "tekst": "Norsk Tipping har svart om verktøyene. Mangler fra Bico: hvem som frakter støpeverktøyene og tar kostnaden. Timetallet for bistand er avklart.",
-   "aapne": 1,
-   "bekreft": 16
+   "tekst": "Ferdig i den endelige teksten. 1 punkt uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R014",
    "tittel": "Levering og forsikring",
    "hvem": "Bico",
-   "tekst": "A-krav. Bico bekrefter.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R015",
    "tittel": "Klimarapport",
    "hvem": "Bico",
-   "tekst": "Mangler fra Bico: hvem som eier klimarapporteringen, og utslippsdata for produksjonen.",
-   "aapne": 3,
-   "bekreft": 6
+   "tekst": "Ferdig i den endelige teksten. 3 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R016",
    "tittel": "Kjemikalier",
    "hvem": "Bico og Signex",
-   "tekst": "Mangler fra Bico: om noen artikler inneholder stoffer fra kandidatlista.",
-   "aapne": 1,
-   "bekreft": 7
+   "tekst": "Ferdig i den endelige teksten. 1 punkt uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R017",
    "tittel": "Reservedeler i ti år",
    "hvem": "Bico og Signex",
-   "tekst": "A-krav. Bekreftet: reservedeler i ti år.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R018",
    "tittel": "Retur og gjenvinning",
    "hvem": "Bico og Signex",
-   "tekst": "Avtalen med Norsk Gjenvinning er inne. Mangler fra Bico: mottaker for plast og metall, og hva vurderingen av eksisterende utstyr bygger på.",
-   "aapne": 2,
-   "bekreft": 11
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R019",
    "tittel": "Rådgivning om klima",
    "hvem": "Bico",
-   "tekst": "Mangler fra Bico: forventet effekt av tiltakene med tall, og konsekvens ved brudd på miljøkravene.",
-   "aapne": 2,
-   "bekreft": 9
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   },
   {
    "id": "R020",
    "tittel": "Ingen flyfrakt",
    "hvem": "Bico og Signex",
-   "tekst": "A-krav. Bekreftes.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 1
+   "bekreft": 0
   },
   {
    "id": "R021",
    "tittel": "Lager og utsendelse",
    "hvem": "Bico",
-   "tekst": "Opsjon. Teksten er skrevet, Bico bekrefter.",
+   "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 10
+   "bekreft": 0
   },
   {
    "id": "R022",
    "tittel": "Pris",
    "hvem": "Bico",
-   "tekst": "Prismatrisen er levert. Norsk Tipping har svart at produktene uten prislinje ikke skal prises. Gjenstår: om refoliering skal ha egen pris.",
-   "aapne": 2,
-   "bekreft": 2
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "aapne": 0,
+   "bekreft": 0
   }
  ],
  "fremdrift": {
-  "krav_ferdig": 10,
+  "krav_ferdig": 22,
   "krav_alle": 22,
-  "fylt": 75,
-  "bekreftet": 35,
+  "fylt": 100,
+  "bekreftet": 155,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 18:37"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 18:39"
  },
  "log": [
+  "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
@@ -447,8 +428,7 @@
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
-  "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn.",
-  "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt."
+  "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn."
  ],
- "oppdatert": "12.11.2026 kl. 18:37"
+ "oppdatert": "12.11.2026 kl. 18:40"
 }
