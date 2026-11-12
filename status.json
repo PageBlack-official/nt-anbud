@@ -397,8 +397,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 11:51"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 11:56"
  },
  "log": [
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
@@ -412,5 +412,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 11:51"
+ "oppdatert": "12.11.2026 kl. 11:56"
 }
