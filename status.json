@@ -1,12 +1,12 @@
 {
- "versjon": "v12",
- "aapne": 73,
- "bekreft": 154,
+ "versjon": "v13",
+ "aapne": 71,
+ "bekreft": 155,
  "selskap": [
   [
    "Bico",
-   38,
-   47
+   37,
+   48
   ],
   [
    "Signex",
@@ -15,7 +15,7 @@
   ],
   [
    "Eker",
-   11,
+   10,
    39
   ],
   [
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v12, 2026-11-12 10:24. Ingen stopp."
+   "tekst": "Stemplet på v13, 2026-11-12 10:41. Ingen stopp."
   },
   {
-   "farge": "g",
+   "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Kjørt på v12 av fersk agent. "
+   "tekst": "Ikke kjørt på v13 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -352,7 +352,7 @@
    "tittel": "Retur og gjenvinning",
    "hvem": "Bico og Signex",
    "tekst": "Avtalen med Norsk Gjenvinning er bekreftet. Mangler priser og mottaker for plast og metall.",
-   "aapne": 5,
+   "aapne": 4,
    "bekreft": 11
   },
   {
@@ -384,8 +384,8 @@
    "tittel": "Pris",
    "hvem": "Bico",
    "tekst": "Venter på prismatrisen.",
-   "aapne": 10,
-   "bekreft": 1
+   "aapne": 9,
+   "bekreft": 2
   }
  ],
  "log": [
@@ -398,5 +398,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 10:30"
+ "oppdatert": "12.11.2026 kl. 10:41"
 }
