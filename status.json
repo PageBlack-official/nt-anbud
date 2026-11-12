@@ -398,9 +398,10 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 11:57"
+  "tekst": "jobber nå, startet kl. 12:03"
  },
  "log": [
+  "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
   "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt.",
   "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet.",
@@ -412,5 +413,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 12:01"
+ "oppdatert": "12.11.2026 kl. 12:06"
 }
