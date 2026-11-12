@@ -249,7 +249,7 @@
    "id": "R001",
    "tittel": "Norsk arbeidsspråk",
    "hvem": "Bico",
-   "tekst": "A-krav. Svart ja.",
+   "tekst": "A-krav. Ferdig.",
    "aapne": 0,
    "bekreft": 0
   },
@@ -257,7 +257,7 @@
    "id": "R002",
    "tittel": "Alle produkter i Vedlegg 1",
    "hvem": "Bico",
-   "tekst": "A-krav. Bico må bekrefte at alt kan leveres, også de sprøytestøpte delene.",
+   "tekst": "A-krav. Ferdig, låseplatene fra Schafer Systems er bekreftet.",
    "aapne": 0,
    "bekreft": 0
   },
@@ -265,7 +265,7 @@
    "id": "R003",
    "tittel": "Endring av støpeverktøy",
    "hvem": "Bico",
-   "tekst": "Bico svarer ja og har egen konstruksjonskompetanse. Mangler hvem som gjør endringen, utstyr og eksempler.",
+   "tekst": "Norsk Tipping har svart: de eier støpeverktøyene, og ingen produksjonsfiler følger med. Mangler fra Bico: stegene fram til godkjent prøveserie, to eller tre tidligere verktøyendringer, og verktøytype for 6253.",
    "aapne": 5,
    "bekreft": 4
   },
@@ -273,7 +273,7 @@
    "id": "R004",
    "tittel": "Skilt med og uten lys",
    "hvem": "Signex",
-   "tekst": "A-krav. Signex bekrefter.",
+   "tekst": "A-krav. Én setning venter på ja fra Signex.",
    "aapne": 0,
    "bekreft": 1
   },
@@ -281,7 +281,7 @@
    "id": "R005",
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Eker og Signex",
-   "tekst": "Ekers prosess og testserier er inne. Avsnittet om konsulentenes møtepunkter er skrevet og skal bekreftes.",
+   "tekst": "Mangler: Verktøymakerens og PRO SHOPs andel av volumet, eierstruktur i Signex og Eker, og svartid fra Bico.",
    "aapne": 5,
    "bekreft": 12
   },
@@ -289,7 +289,7 @@
    "id": "R006",
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
-   "tekst": "Mangler mål per format, dokumentasjon på slag og holdbarhet for trykt folie, og tall for resirkulert andel.",
+   "tekst": "Norsk Tipping har svart om målene. Mangler fra Signex: mål og toleranser, korrekturrutine, holdbarhet for trykt folie, resirkulert andel og antall skilt i referansene.",
    "aapne": 12,
    "bekreft": 15
   },
@@ -297,7 +297,7 @@
    "id": "R007",
    "tittel": "Emballasje",
    "hvem": "Signex",
-   "tekst": "Mangler pappkvalitet, resirkulert andel og tall for transportskader.",
+   "tekst": "Mangler fra Signex: pappkvalitet, andel resirkulert fiber og tall for transportskader.",
    "aapne": 3,
    "bekreft": 9
   },
@@ -305,7 +305,7 @@
    "id": "R008",
    "tittel": "Folie i hele Norge",
    "hvem": "Signex",
-   "tekst": "A-krav. Signex bekrefter.",
+   "tekst": "A-krav. Én setning venter på ja fra Signex.",
    "aapne": 0,
    "bekreft": 1
   },
@@ -313,7 +313,7 @@
    "id": "R009",
    "tittel": "Montering av folie",
    "hvem": "Signex",
-   "tekst": "A-krav. Signex bekrefter.",
+   "tekst": "A-krav. Én setning venter på ja fra Signex.",
    "aapne": 0,
    "bekreft": 1
   },
@@ -321,7 +321,7 @@
    "id": "R010",
    "tittel": "Foliering",
    "hvem": "Signex",
-   "tekst": "Mangler produktnavn for mellomklassen, vedlikeholdsanvisning og testmetode.",
+   "tekst": "Mangler fra Signex: produktnavn for mellomklassen, vedlikeholdsanvisningen og testmetoden.",
    "aapne": 3,
    "bekreft": 7
   },
@@ -329,7 +329,7 @@
    "id": "R011",
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
-   "tekst": "Eker leverer alle åtte. Mangler år, verdi og kontaktperson på flere referanser, og 3D-delen av grafisk design.",
+   "tekst": "Ferdig fra Eker: alle åtte tjenester med referanser, og Norsk Tipping godtar referanser fra underleverandører. To småopplysninger om BANO strykes hvis de ikke kommer i kveld.",
    "aapne": 3,
    "bekreft": 1
   },
@@ -337,7 +337,7 @@
    "id": "R012",
    "tittel": "Reklamasjon",
    "hvem": "Bico",
-   "tekst": "Bicos egen tekst er inne. Mangler stedfortreder for kontaktpersonen.",
+   "tekst": "Teksten er skrevet. Bico bekrefter setningene.",
    "aapne": 0,
    "bekreft": 12
   },
@@ -345,7 +345,7 @@
    "id": "R013",
    "tittel": "Leverandørskifte",
    "hvem": "Bico",
-   "tekst": "Bicos egen tekst er inne. Mangler timetall for bistand og hvem som flytter verktøyene.",
+   "tekst": "Norsk Tipping har svart om verktøyene. Mangler fra Bico: hvem som frakter støpeverktøyene og tar kostnaden. Timetallet for bistand er avklart.",
    "aapne": 2,
    "bekreft": 16
   },
@@ -361,7 +361,7 @@
    "id": "R015",
    "tittel": "Klimarapport",
    "hvem": "Bico",
-   "tekst": "Bicos metode, basisår og mål er inne. Mangler utslippsfaktorer og data for produksjonen.",
+   "tekst": "Mangler fra Bico: hvem som eier klimarapporteringen, og utslippsdata for produksjonen.",
    "aapne": 3,
    "bekreft": 6
   },
@@ -369,7 +369,7 @@
    "id": "R016",
    "tittel": "Kjemikalier",
    "hvem": "Bico og Signex",
-   "tekst": "Mangler hvem hos Bico som kontrollerer dispenser- og brakettdelen.",
+   "tekst": "Mangler fra Bico: om noen artikler inneholder stoffer fra kandidatlista.",
    "aapne": 1,
    "bekreft": 7
   },
@@ -377,7 +377,7 @@
    "id": "R017",
    "tittel": "Reservedeler i ti år",
    "hvem": "Bico og Signex",
-   "tekst": "A-krav. Bekreftes.",
+   "tekst": "A-krav. Bekreftet: reservedeler i ti år.",
    "aapne": 0,
    "bekreft": 1
   },
@@ -385,7 +385,7 @@
    "id": "R018",
    "tittel": "Retur og gjenvinning",
    "hvem": "Bico og Signex",
-   "tekst": "Avtalen med Norsk Gjenvinning er bekreftet. Mangler priser og mottaker for plast og metall.",
+   "tekst": "Avtalen med Norsk Gjenvinning er inne. Mangler fra Bico: mottaker for plast og metall, og hva vurderingen av eksisterende utstyr bygger på.",
    "aapne": 4,
    "bekreft": 11
   },
@@ -393,7 +393,7 @@
    "id": "R019",
    "tittel": "Rådgivning om klima",
    "hvem": "Bico",
-   "tekst": "Mangler forventet effekt av tiltakene, med tall.",
+   "tekst": "Mangler fra Bico: forventet effekt av tiltakene med tall, og konsekvens ved brudd på miljøkravene.",
    "aapne": 2,
    "bekreft": 9
   },
@@ -409,7 +409,7 @@
    "id": "R021",
    "tittel": "Lager og utsendelse",
    "hvem": "Bico",
-   "tekst": "Opsjon. Bico svarer ja. Mangler priser.",
+   "tekst": "Opsjon. Teksten er skrevet, Bico bekrefter.",
    "aapne": 1,
    "bekreft": 10
   },
@@ -417,7 +417,7 @@
    "id": "R022",
    "tittel": "Pris",
    "hvem": "Bico",
-   "tekst": "Venter på prismatrisen.",
+   "tekst": "Prismatrisen er levert. Norsk Tipping har svart at produktene uten prislinje ikke skal prises. Gjenstår: om refoliering skal ha egen pris.",
    "aapne": 9,
    "bekreft": 2
   }
@@ -432,9 +432,10 @@
  "agent": {
   "navn": "Skriver",
   "status": "succeeded",
-  "tekst": "ferdig kl. 16:42"
+  "tekst": "ferdig kl. 16:47"
  },
  "log": [
+  "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
   "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut.",
   "12.11 14:45 PRO SHOP AS har svart på ESPD-forespørselen i Artifik.",
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
@@ -445,8 +446,7 @@
   "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
-  "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
-  "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår."
+  "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring."
  ],
- "oppdatert": "12.11.2026 kl. 16:43"
+ "oppdatert": "12.11.2026 kl. 16:48"
 }
