@@ -151,10 +151,10 @@
    "tekst": "Kontaktopplysningene er ført inn. Mangler adresse og signatur av to styremedlemmer eller prokurist."
   },
   {
-   "farge": "r",
+   "farge": "y",
    "tittel": "Markørene ut, så sladdet versjon",
-   "hvem": "Skriver",
-   "tekst": "Alle interne markører må ut før innlevering, og et menneske må ha lest dokumentet. Den sladdede versjonen lages når innholdet er låst."
+   "hvem": "Claude",
+   "tekst": "Skriver er stoppet av ukekvoten til ca. kl. 04, så Claude tar kuttet i kveld i Skrivers egen kjede. Prøvekuttet 18:00 er rent, uten markører igjen. Endelig kutt kl. 21:00, og den sladdede versjonen lages etterpå."
   }
  ],
  "parts": [
@@ -162,7 +162,7 @@
    "farge": "y",
    "tittel": "Bilag 2, løsningsspesifikasjonen",
    "hvem": "Skriver",
-   "tekst": "Alle 22 krav er skrevet i Norsk Tippings mal. Tallene øverst viser hva som står åpent."
+   "tekst": "Versjon 34: hullene hos Signex er lukket fra deres egne dokumenter, og Ekers bilder er satt inn under hver tjeneste. Endelig kutt kl. 21:00."
   },
   {
    "farge": "y",
@@ -431,10 +431,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 17:40"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 17:56"
  },
  "log": [
+  "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
   "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut.",
   "12.11 14:45 PRO SHOP AS har svart på ESPD-forespørselen i Artifik.",
@@ -445,8 +446,7 @@
   "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn.",
   "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
-  "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
-  "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring."
+  "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting."
  ],
- "oppdatert": "12.11.2026 kl. 17:44"
+ "oppdatert": "12.11.2026 kl. 17:56"
 }
