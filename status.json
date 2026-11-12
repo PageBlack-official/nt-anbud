@@ -1,8 +1,29 @@
 {
  "versjon": "v33",
- "aapne": 53,
- "bekreft": 127,
- "selskap": [],
+ "aapne": 47,
+ "bekreft": 120,
+ "selskap": [
+  [
+   "Bico",
+   22,
+   53
+  ],
+  [
+   "Signex",
+   23,
+   65
+  ],
+  [
+   "Eker",
+   2,
+   0
+  ],
+  [
+   "Vegar",
+   0,
+   2
+  ]
+ ],
  "ingress": "Konseptelementer for fysiske arenaer. Ferdige dokumenter til Einar torsdag kl. 23:59, og Einar sender inn fredag før kl. 10:00.",
  "frist": "23:59",
  "fast": [
@@ -198,9 +219,9 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "r",
+   "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Ikke stemplet på v33 ennå."
+   "tekst": "Stemplet på v33, 2026-11-12 17:20. Ingen stopp."
   },
   {
    "farge": "y",
@@ -404,14 +425,14 @@
  "fremdrift": {
   "krav_ferdig": 9,
   "krav_alle": 22,
-  "fylt": 71,
-  "bekreftet": 28,
+  "fylt": 72,
+  "bekreftet": 35,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 17:16"
+  "status": "failed",
+  "tekst": "stoppet med feil kl. 17:23"
  },
  "log": [
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
@@ -427,5 +448,5 @@
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring."
  ],
- "oppdatert": "12.11.2026 kl. 17:18"
+ "oppdatert": "12.11.2026 kl. 17:24"
 }
