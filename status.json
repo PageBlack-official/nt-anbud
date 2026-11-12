@@ -28,10 +28,11 @@
  "frist": "23:59",
  "fast": [
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Filnavnene rettes til Norsk Tippings",
    "hvem": "Claude",
-   "tekst": "Planlagt i kveld, når teksten er låst. Da får de ferdige filene nøyaktig NTs navn, for eksempel «Bilag 2 Lev løsningsspes.DOCX». Gjøres ikke før, fordi Skriver bygger nye versjoner hele dagen."
+   "tekst": "Bilag 2, Bilag 6 og prismatrisen har Norsk Tippings egne filnavn, og ligger slik i Artifik.",
+   "ferdig": true
   },
   {
    "farge": "g",
@@ -148,39 +149,40 @@
    "farge": "r",
    "tittel": "Tilbudsbrevet signert",
    "hvem": "Bico",
-   "tekst": "Kontaktopplysningene er ført inn. Mangler adresse og signatur av to styremedlemmer eller prokurist."
+   "tekst": "Sendt til Einar 18:34. Mangler postadresse, sted, dato og signatur av prokurist eller to styremedlemmer."
   },
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Markørene ut, så sladdet versjon",
    "hvem": "Claude",
-   "tekst": "Skriver er stoppet av ukekvoten til ca. kl. 04, så Claude tar kuttet i kveld i Skrivers egen kjede. Prøvekuttet 18:00 er rent, uten markører igjen. Endelig kutt kl. 21:00, og den sladdede versjonen lages etterpå."
+   "tekst": "Bilag 2 er ferdig og har ingen markører. Den sladdede versjonen er laget, og begge ligger i Artifik sammen med Bilag 6 og prismatrisen.",
+   "ferdig": true
   }
  ],
  "parts": [
   {
-   "farge": "y",
+   "farge": "g",
    "tittel": "Bilag 2, løsningsspesifikasjonen",
    "hvem": "Skriver",
-   "tekst": "Versjon 34: hullene hos Signex er lukket fra deres egne dokumenter, og Ekers bilder er satt inn under hver tjeneste. Endelig kutt kl. 21:00."
+   "tekst": "Ferdig og lastet opp i Artifik med Norsk Tippings filnavn. Seks referansebilder fra Eker."
   },
   {
    "farge": "y",
    "tittel": "Tilbudsbrev",
    "hvem": "Bico",
-   "tekst": "Skrevet, med kontaktopplysninger. Mangler adresse og signatur."
+   "tekst": "Sendt til Einar. Mangler adresse, sted, dato og signatur."
   },
   {
    "farge": "g",
    "tittel": "Bilag 7, prismatrisen",
    "hvem": "Bico",
-   "tekst": "Mottatt utfylt i alle seks ark."
+   "tekst": "Mottatt utfylt i alle seks ark. Lastet opp i Artifik."
   },
   {
    "farge": "g",
    "tittel": "Bilag 6, administrative bestemmelser",
    "hvem": "Bico",
-   "tekst": "Ferdig utfylt. Einar er kontaktperson, PRO SHOP AS med riktig org.nr."
+   "tekst": "Ferdig utfylt. Einar er kontaktperson, PRO SHOP AS med riktig org.nr. Lastet opp i Artifik."
   },
   {
    "farge": "y",
@@ -189,10 +191,10 @@
    "tekst": "Bico har fylt ut sin del, og Eker og PRO SHOP har levert. Signex og Verktøymakeren står fortsatt som invitert og har ikke svart."
   },
   {
-   "farge": "r",
+   "farge": "g",
    "tittel": "Sladdet versjon",
    "hvem": "Skriver",
-   "tekst": "Finnes ikke ennå. Lages til slutt."
+   "tekst": "Lastet opp i Artifik. Oppdragsverdier, telefonnumre og e-postadresser er sladdet, og sidene er lagret som bilder."
   },
   {
    "farge": "y",
@@ -431,10 +433,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 18:26"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 18:37"
  },
  "log": [
+  "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
@@ -445,8 +448,7 @@
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
   "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn.",
-  "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
-  "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag."
+  "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt."
  ],
- "oppdatert": "12.11.2026 kl. 18:29"
+ "oppdatert": "12.11.2026 kl. 18:37"
 }
