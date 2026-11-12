@@ -1,16 +1,16 @@
 {
- "versjon": "v27",
- "aapne": 62,
+ "versjon": "v28",
+ "aapne": 53,
  "bekreft": 119,
  "selskap": [
   [
    "Bico",
-   33,
+   26,
    52
   ],
   [
    "Signex",
-   26,
+   24,
    65
   ],
   [
@@ -221,12 +221,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v27, 2026-11-12 13:53. Ingen stopp."
+   "tekst": "Stemplet på v28, 2026-11-12 16:37. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v27 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v28 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -425,7 +425,7 @@
  "fremdrift": {
   "krav_ferdig": 9,
   "krav_alle": 22,
-  "fylt": 66,
+  "fylt": 69,
   "bekreftet": 36,
   "bekreft_alle": 155
  },
@@ -448,5 +448,5 @@
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
   "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår."
  ],
- "oppdatert": "12.11.2026 kl. 16:33"
+ "oppdatert": "12.11.2026 kl. 16:38"
 }
