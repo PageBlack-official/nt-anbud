@@ -1,0 +1,401 @@
+{
+ "versjon": "v12",
+ "aapne": 73,
+ "bekreft": 154,
+ "selskap": [
+  [
+   "Bico",
+   39,
+   47
+  ],
+  [
+   "Signex",
+   24,
+   66
+  ],
+  [
+   "Eker",
+   10,
+   39
+  ],
+  [
+   "Vegar",
+   0,
+   2
+  ]
+ ],
+ "ingress": "Konseptelementer for fysiske arenaer. Ferdige dokumenter til Einar torsdag kl. 23:59, og Einar sender inn fredag før kl. 10:00.",
+ "frist": "23:59 i kveld",
+ "fast": [
+  {
+   "farge": "y",
+   "tittel": "Fersk faktasjekk på hele teksten",
+   "hvem": "Skriver",
+   "tekst": "Bestilt 09:48. En ny agent uten forhistorie leser hele teksten mot kildene. Siste uavhengige sjekk var på v9."
+  },
+  {
+   "farge": "y",
+   "tittel": "Eker retter erklæringen til åtte tjenester",
+   "hvem": "Eker",
+   "tekst": "Erklæringen som ble signert i går, lister seks tjenester. Teksten sier åtte. Mail sendt Herman kl. 09:58. Bård må signere på nytt."
+  },
+  {
+   "farge": "y",
+   "tittel": "3D-delen av grafisk design",
+   "hvem": "Eker",
+   "tekst": "Eker oppgir verktøy og ett oppdrag som viser 3D-arbeidet. Spurt i samme mail til Herman."
+  },
+  {
+   "farge": "y",
+   "tittel": "Godkjenn og flytt Ekers åtte filer",
+   "hvem": "Vakta",
+   "tekst": "Jan Kristian lastet opp én presentasjon per tjeneste i går. De ligger i innboksen og er ikke kontrollert."
+  },
+  {
+   "farge": "y",
+   "tittel": "Signex-databladet får riktig navn",
+   "hvem": "Vakta",
+   "tekst": "Innholdet er godkjent. Fila må døpes om og flyttes, fordi R006 og R010 viser til den."
+  },
+  {
+   "farge": "y",
+   "tittel": "Filnavnene rettes til Norsk Tippings",
+   "hvem": "Claude",
+   "tekst": "Gjøres på de ferdige filene rett før de går til Einar."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Timeprisen for konsulenttjenestene bekreftet",
+   "hvem": "Bico",
+   "tekst": "Einar svarte kl. 09:51. Bico fører prisen inn i prismatrisen."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Østfold Teater klarert som referanse",
+   "hvem": "Vegar",
+   "tekst": "Bekreftet av Vegar kl. 09:40."
+  },
+  {
+   "farge": "g",
+   "ferdig": true,
+   "tittel": "Rollen til Vegar i R011 avklart",
+   "hvem": "Vegar",
+   "tekst": "Eker leverer alle åtte tjenestene. Vegar er utførende på grafisk design, tilkalt av Eker."
+  }
+ ],
+ "crit": [
+  {
+   "farge": "r",
+   "tittel": "Prismatrisen, alle seks ark",
+   "hvem": "Bico",
+   "tekst": "Pris teller 35 prosent. Arkene er ikke levert til oss utfylt. Uten utfylt matrise kan ikke tilbudet vurderes."
+  },
+  {
+   "farge": "r",
+   "tittel": "ESPD i Artifik for Bico, Signex og Eker",
+   "hvem": "Bico",
+   "tekst": "Ingen er bekreftet levert. Signex og Eker legges inn som underleverandører i Artifik, så de får sitt eget skjema."
+  },
+  {
+   "farge": "r",
+   "tittel": "Bicos åpne punkter og ja eller nei",
+   "hvem": "Bico",
+   "tekst": "Støpeverktøy, klimarapport, retur, lager og reklamasjon. Spørsmålene står ferdig formulert nederst i mangellista."
+  },
+  {
+   "farge": "r",
+   "tittel": "Tilbudsbrevet signert",
+   "hvem": "Bico",
+   "tekst": "Mangler adresse, mobil til kontaktpersonen og signatur av to styremedlemmer eller prokurist."
+  },
+  {
+   "farge": "r",
+   "tittel": "Bilag 6 fylt ut",
+   "hvem": "Bico",
+   "tekst": "Kontaktpersonene i avtalen. Ikke mottatt."
+  },
+  {
+   "farge": "r",
+   "tittel": "Markørene ut, så sladdet versjon",
+   "hvem": "Skriver",
+   "tekst": "Alle interne markører må ut før innlevering, og et menneske må ha lest dokumentet. Den sladdede versjonen lages når innholdet er låst."
+  }
+ ],
+ "parts": [
+  {
+   "farge": "y",
+   "tittel": "Bilag 2, løsningsspesifikasjonen",
+   "hvem": "Skriver",
+   "tekst": "Alle 22 krav er skrevet i Norsk Tippings mal. Tallene øverst viser hva som står åpent."
+  },
+  {
+   "farge": "y",
+   "tittel": "Tilbudsbrev",
+   "hvem": "Bico",
+   "tekst": "Skrevet. Mangler adresse, mobil og signatur."
+  },
+  {
+   "farge": "r",
+   "tittel": "Bilag 7, prismatrisen",
+   "hvem": "Bico",
+   "tekst": "Seks ark. Ikke mottatt utfylt."
+  },
+  {
+   "farge": "r",
+   "tittel": "Bilag 6, administrative bestemmelser",
+   "hvem": "Bico",
+   "tekst": "Ikke mottatt."
+  },
+  {
+   "farge": "r",
+   "tittel": "ESPD i Artifik",
+   "hvem": "Bico",
+   "tekst": "Bico, Signex og Eker. Ingen bekreftet levert."
+  },
+  {
+   "farge": "r",
+   "tittel": "Sladdet versjon",
+   "hvem": "Skriver",
+   "tekst": "Finnes ikke ennå. Lages til slutt."
+  },
+  {
+   "farge": "y",
+   "tittel": "Forpliktelseserklæringer",
+   "hvem": "Eker",
+   "tekst": "Signex er signert og godkjent. Ekers er signert, men må rettes fra seks til åtte tjenester."
+  },
+  {
+   "farge": "g",
+   "tittel": "Attester, regnskap og sertifikat",
+   "hvem": "Vakta",
+   "tekst": "Godkjent for Bico, Signex og Eker. Må lastes opp i Artifik."
+  }
+ ],
+ "checks": [
+  {
+   "farge": "g",
+   "tittel": "Skrevet i Norsk Tippings egen mal",
+   "tekst": "Kravtabellene er urørt, og alle 22 krav er besvart punkt for punkt."
+  },
+  {
+   "farge": "g",
+   "tittel": "Ingen lenker, ingen brosjyre",
+   "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
+  },
+  {
+   "farge": "g",
+   "tittel": "KI-sensur",
+   "tekst": "Stemplet på v12, 2026-11-12 09:44. Ingen stopp."
+  },
+  {
+   "farge": "y",
+   "tittel": "Faktasjekk",
+   "tekst": "Ikke kjørt på v12 ennå. Bestilt."
+  },
+  {
+   "farge": "y",
+   "tittel": "Jury",
+   "tekst": "Sist kjørt på v5. Kjøres på den siste versjonen."
+  },
+  {
+   "farge": "r",
+   "tittel": "Leserunde og doktor",
+   "tekst": "Kjøres én gang, på siste versjon før overlevering."
+  },
+  {
+   "farge": "r",
+   "tittel": "Lest og godkjent av et menneske",
+   "tekst": "Norsk Tipping krever det. Gjøres av Vegar og Einar på den ferdige teksten."
+  }
+ ],
+ "krav": [
+  {
+   "id": "R001",
+   "tittel": "Norsk arbeidsspråk",
+   "hvem": "Bico",
+   "tekst": "A-krav. Svart ja.",
+   "aapne": 0,
+   "bekreft": 0
+  },
+  {
+   "id": "R002",
+   "tittel": "Alle produkter i Vedlegg 1",
+   "hvem": "Bico",
+   "tekst": "A-krav. Bico må bekrefte at alt kan leveres, også de sprøytestøpte delene.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R003",
+   "tittel": "Endring av støpeverktøy",
+   "hvem": "Bico",
+   "tekst": "Bico svarer ja og har egen konstruksjonskompetanse. Mangler hvem som gjør endringen, utstyr og eksempler.",
+   "aapne": 5,
+   "bekreft": 3
+  },
+  {
+   "id": "R004",
+   "tittel": "Skilt med og uten lys",
+   "hvem": "Signex",
+   "tekst": "A-krav. Signex bekrefter.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R005",
+   "tittel": "Prototyping og arbeidsprosess",
+   "hvem": "Eker og Signex",
+   "tekst": "Ekers prosess og testserier er inne. Avsnittet om konsulentenes møtepunkter er skrevet og skal bekreftes.",
+   "aapne": 3,
+   "bekreft": 17
+  },
+  {
+   "id": "R006",
+   "tittel": "Anleggsskilt som varer i 20 år",
+   "hvem": "Signex",
+   "tekst": "Mangler mål per format, dokumentasjon på slag og holdbarhet for trykt folie, og tall for resirkulert andel.",
+   "aapne": 11,
+   "bekreft": 16
+  },
+  {
+   "id": "R007",
+   "tittel": "Emballasje",
+   "hvem": "Signex",
+   "tekst": "Mangler pappkvalitet, resirkulert andel og tall for transportskader.",
+   "aapne": 3,
+   "bekreft": 9
+  },
+  {
+   "id": "R008",
+   "tittel": "Folie i hele Norge",
+   "hvem": "Signex",
+   "tekst": "A-krav. Signex bekrefter.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R009",
+   "tittel": "Montering av folie",
+   "hvem": "Signex",
+   "tekst": "A-krav. Signex bekrefter.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R010",
+   "tittel": "Foliering",
+   "hvem": "Signex",
+   "tekst": "Mangler produktnavn for mellomklassen, vedlikeholdsanvisning og testmetode.",
+   "aapne": 3,
+   "bekreft": 7
+  },
+  {
+   "id": "R011",
+   "tittel": "Åtte konsulenttjenester",
+   "hvem": "Eker",
+   "tekst": "Eker leverer alle åtte. Mangler år, verdi og kontaktperson på flere referanser, og 3D-delen av grafisk design.",
+   "aapne": 10,
+   "bekreft": 33
+  },
+  {
+   "id": "R012",
+   "tittel": "Reklamasjon",
+   "hvem": "Bico",
+   "tekst": "Bicos egen tekst er inne. Mangler stedfortreder for kontaktpersonen.",
+   "aapne": 1,
+   "bekreft": 12
+  },
+  {
+   "id": "R013",
+   "tittel": "Leverandørskifte",
+   "hvem": "Bico",
+   "tekst": "Bicos egen tekst er inne. Mangler timetall for bistand og hvem som flytter verktøyene.",
+   "aapne": 3,
+   "bekreft": 15
+  },
+  {
+   "id": "R014",
+   "tittel": "Levering og forsikring",
+   "hvem": "Bico",
+   "tekst": "A-krav. Bico bekrefter.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R015",
+   "tittel": "Klimarapport",
+   "hvem": "Bico",
+   "tekst": "Bicos metode, basisår og mål er inne. Mangler utslippsfaktorer og data for produksjonen.",
+   "aapne": 3,
+   "bekreft": 6
+  },
+  {
+   "id": "R016",
+   "tittel": "Kjemikalier",
+   "hvem": "Bico og Signex",
+   "tekst": "Mangler hvem hos Bico som kontrollerer dispenser- og brakettdelen.",
+   "aapne": 1,
+   "bekreft": 7
+  },
+  {
+   "id": "R017",
+   "tittel": "Reservedeler i ti år",
+   "hvem": "Bico og Signex",
+   "tekst": "A-krav. Bekreftes.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R018",
+   "tittel": "Retur og gjenvinning",
+   "hvem": "Bico og Signex",
+   "tekst": "Avtalen med Norsk Gjenvinning er bekreftet. Mangler priser og mottaker for plast og metall.",
+   "aapne": 5,
+   "bekreft": 11
+  },
+  {
+   "id": "R019",
+   "tittel": "Rådgivning om klima",
+   "hvem": "Bico",
+   "tekst": "Mangler forventet effekt av tiltakene, med tall.",
+   "aapne": 2,
+   "bekreft": 9
+  },
+  {
+   "id": "R020",
+   "tittel": "Ingen flyfrakt",
+   "hvem": "Bico og Signex",
+   "tekst": "A-krav. Bekreftes.",
+   "aapne": 0,
+   "bekreft": 1
+  },
+  {
+   "id": "R021",
+   "tittel": "Lager og utsendelse",
+   "hvem": "Bico",
+   "tekst": "Opsjon. Bico svarer ja. Mangler priser.",
+   "aapne": 1,
+   "bekreft": 10
+  },
+  {
+   "id": "R022",
+   "tittel": "Pris",
+   "hvem": "Bico",
+   "tekst": "Venter på prismatrisen.",
+   "aapne": 10,
+   "bekreft": 1
+  }
+ ],
+ "log": [
+  "12.11 10:20 Statussiden lagt ut.",
+  "12.11 09:58 Mail sendt Herman om åtte tjenester.",
+  "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene.",
+  "12.11 09:48 Ny versjon bestilt: Eker leverer alle åtte tjenestene.",
+  "12.11 09:14 Einar fikk svar om ESPD.",
+  "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
+  "11.11 16:07 Signex leverte signert forpliktelseserklæring."
+ ],
+ "oppdatert": "12.11.2026 kl. 09:55"
+}

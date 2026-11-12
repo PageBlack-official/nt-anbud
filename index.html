@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>NT-anbud</title>
+<style>
+:root{--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--mut:#6e6e73;--line:#d2d2d7;--blue:#0071e3;
+--g:#248a3d;--gb:#e8f6ec;--y:#b25000;--yb:#fff4e0;--r:#d70015;--rb:#ffecec}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--card:#1c1c1e;--ink:#f5f5f7;--mut:#a1a1a6;--line:#38383a;--blue:#2997ff;
+--g:#30d158;--gb:#12301b;--y:#ff9f0a;--yb:#3a2a08;--r:#ff453a;--rb:#3a1512}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.47 -apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:980px;margin:0 auto;padding:56px 22px 80px}
+h1{font-size:clamp(40px,7vw,64px);line-height:1.05;font-weight:600;letter-spacing:-.02em;margin:0 0 10px;text-wrap:balance}
+.sub{font-size:21px;color:var(--mut);margin:0 0 36px;max-width:640px}
+h2{font-size:28px;font-weight:600;letter-spacing:-.01em;margin:56px 0 6px}
+.h2s{color:var(--mut);margin:0 0 18px;font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.stat{background:var(--card);border-radius:18px;padding:20px}
+.stat b{display:block;font-size:34px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.stat span{font-size:14px;color:var(--mut)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.col{background:var(--card);border-radius:22px;padding:22px 22px 10px}
+.col h3{margin:0 0 4px;font-size:21px;font-weight:600}
+.col p{margin:0 0 12px;color:var(--mut);font-size:14px}
+.crit h3{color:var(--r)}
+details{border-top:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:13px 0;display:flex;gap:12px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:6px}
+.t{flex:1}
+.who{font-size:13px;color:var(--mut);white-space:nowrap}
+.dot{width:10px;height:10px;border-radius:50%;flex:none;transform:translateY(1px)}
+.g .dot{background:var(--g)}.y .dot{background:var(--y)}.r .dot{background:var(--r)}
+.done .t{text-decoration:line-through;color:var(--mut)}
+.body{padding:0 0 16px 22px;font-size:15px;color:var(--mut);max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.tile{border-radius:16px;border:0}
+.tile summary{flex-direction:column;gap:2px;padding:14px 16px}
+.tile .n{font-size:13px;color:var(--mut)}
+.tile .k{font-weight:600;font-size:15px;line-height:1.25}
+.tile .c{font-size:13px;font-variant-numeric:tabular-nums}
+.tile.g .c{color:var(--g)}.tile.y .c{color:var(--y)}.tile.r .c{color:var(--r)}
+.tile.g{background:var(--gb)}.tile.y{background:var(--yb)}.tile.r{background:var(--rb)}
+.tile .body{padding:0 16px 14px}
+.tile[open]{grid-column:1/-1}
+.list{background:var(--card);border-radius:22px;padding:4px 22px}
+.list details:first-child{border-top:0}
+.log{font-size:15px;color:var(--mut);padding-left:20px;margin:0}
+.log li{margin:0 0 6px}
+footer{margin-top:56px;font-size:13px;color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<h1>Norsk Tipping-anbudet</h1>
+<p class="sub" id="sub">Henter status.</p>
+<div class="stats" id="stats"></div>
+
+<h2>I dag</h2>
+<p class="h2s">Trykk på et punkt for å se hva det gjelder og hvem som har det.</p>
+<div class="two">
+<section class="col"><h3>Raskt å gjøre</h3><p>Minutter, ikke timer.</p><div id="fast"></div></section>
+<section class="col crit"><h3>Kritisk</h3><p>Uten disse kan ikke tilbudet leveres.</p><div id="crit"></div></section>
+</div>
+
+<h2>Alt som må med</h2>
+<p class="h2s">De åtte delene Norsk Tipping krever i innleveringen.</p>
+<div class="list" id="parts"></div>
+
+<h2>Bilag 2, krav for krav</h2>
+<p class="h2s">Tallet er åpne punkter i versjonen som gjelder. Grønn har ingen, gul har 1 til 3, rød har 4 eller flere.</p>
+<div class="grid" id="krav"></div>
+
+<h2>Kontroller</h2>
+<p class="h2s">Hva som er sjekket på teksten, og hva som gjenstår.</p>
+<div class="list" id="checks"></div>
+
+<h2>Sist utført</h2>
+<ul class="log" id="log"></ul>
+
+<footer id="foot"></footer>
+</main>
+<script>
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const $=id=>document.getElementById(id);
+const open=new Set();let last="";
+const row=(p,i,x)=>{const k=p+i;return `<details data-k="${k}" class="${esc(x.farge)}${x.ferdig?" done":""}"${open.has(k)?" open":""}><summary><span class="dot"></span><span class="t">${esc(x.tittel)}</span>${x.hvem?`<span class="who">${esc(x.hvem)}</span>`:""}</summary><div class="body">${esc(x.tekst)}</div></details>`};
+function tegn(D){
+ $("sub").textContent=D.ingress||"";
+ $("stats").innerHTML=[[D.versjon,"Versjonen som gjelder"],[D.aapne,"Åpne punkter"],[D.bekreft,"Skal bekreftes"],[D.frist||"","Neste frist"]].map(([a,b])=>`<div class="stat"><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("");
+ for(const id of ["fast","crit","parts","checks"])$(id).innerHTML=(D[id]||[]).map((x,i)=>row(id,i,x)).join("");
+ $("krav").innerHTML=(D.krav||[]).map(x=>{const c=x.aapne===0?"g":x.aapne<4?"y":"r",k="k"+x.id;
+  return `<details data-k="${k}" class="tile ${c}"${open.has(k)?" open":""}><summary><span class="n">${esc(x.id)} · ${esc(x.hvem)}</span><span class="k">${esc(x.tittel)}</span><span class="c">${x.aapne} åpne · ${x.bekreft} bekreftes</span></summary><div class="body">${esc(x.tekst)}</div></details>`}).join("");
+ $("log").innerHTML=(D.log||[]).map(l=>`<li>${esc(l)}</li>`).join("");
+ $("foot").textContent="Sist endret "+(D.oppdatert||"")+". "+(D.selskap||[]).map(s=>s[0]+" "+s[1]+" åpne og "+s[2]+" som skal bekreftes").join(", ")+". Siden henter nye tall selv hvert minutt.";
+}
+document.addEventListener("toggle",e=>{const k=e.target.dataset&&e.target.dataset.k;if(k)e.target.open?open.add(k):open.delete(k)},true);
+async function hent(){
+ try{const r=await fetch("status.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const t=await r.text();if(t!==last){last=t;tegn(JSON.parse(t))}}
+ catch(e){if(!last)$("sub").textContent="Fikk ikke hentet status. Prøver igjen om et minutt."}
+}
+hent();setInterval(hent,60000);
+</script>
+</body>
+</html>
