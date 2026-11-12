@@ -1,7 +1,7 @@
 {
- "versjon": "v16",
+ "versjon": "v17",
  "aapne": 71,
- "bekreft": 154,
+ "bekreft": 155,
  "selskap": [
   [
    "Bico",
@@ -16,7 +16,7 @@
   [
    "Eker",
    10,
-   39
+   40
   ],
   [
    "Vegar",
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v16, 2026-11-12 11:44. Ingen stopp."
+   "tekst": "Stemplet på v17, 2026-11-12 12:09. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v16 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v17 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -297,7 +297,7 @@
    "hvem": "Eker",
    "tekst": "Eker leverer alle åtte. Mangler år, verdi og kontaktperson på flere referanser, og 3D-delen av grafisk design.",
    "aapne": 10,
-   "bekreft": 33
+   "bekreft": 34
   },
   {
    "id": "R012",
@@ -391,14 +391,14 @@
  "fremdrift": {
   "krav_ferdig": 8,
   "krav_alle": 22,
-  "fylt": 68,
-  "bekreftet": 1,
+  "fylt": 69,
+  "bekreftet": 0,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 12:03"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 12:11"
  },
  "log": [
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
@@ -413,5 +413,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 12:06"
+ "oppdatert": "12.11.2026 kl. 12:12"
 }
