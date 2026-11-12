@@ -1,5 +1,5 @@
 {
- "versjon": "v13",
+ "versjon": "v14",
  "aapne": 71,
  "bekreft": 155,
  "selskap": [
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v13, 2026-11-12 10:41. Ingen stopp."
+   "tekst": "Stemplet på v14, 2026-11-12 11:19. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v13 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v14 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -397,8 +397,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 11:14"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 11:21"
  },
  "log": [
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
@@ -412,5 +412,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 11:15"
+ "oppdatert": "12.11.2026 kl. 11:21"
 }
