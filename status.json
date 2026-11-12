@@ -436,7 +436,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 19:29"
+  "tekst": "jobber nå, startet kl. 19:34"
  },
  "log": [
   "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
@@ -452,5 +452,5 @@
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig."
  ],
- "oppdatert": "12.11.2026 kl. 19:29"
+ "oppdatert": "12.11.2026 kl. 19:35"
 }
