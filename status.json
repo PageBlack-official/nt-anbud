@@ -430,8 +430,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 14:28"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 14:38"
  },
  "log": [
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
@@ -447,5 +447,5 @@
   "12.11 12:16 Bico har bestemt 5 mm plate på anleggsskiltene, slik Norsk Tippings vedlegg sier. Signex er spurt om levering.",
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik."
  ],
- "oppdatert": "12.11.2026 kl. 14:33"
+ "oppdatert": "12.11.2026 kl. 14:38"
 }
