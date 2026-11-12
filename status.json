@@ -3,7 +3,7 @@
  "aapne": 0,
  "bekreft": 0,
  "selskap": [],
- "ingress": "Konseptelementer for fysiske arenaer. Versjon 40 av løsningsspesifikasjonen ligger i Artifik sammen med signert tilbudsbrev og rettet prismatrise. Det som gjenstår, er erklæringene fra PRO SHOP og Verktøymakeren, og det ligger hos Bico. Einar sender inn fredag før kl. 10:00.",
+ "ingress": "Konseptelementer for fysiske arenaer. Versjon 40 ligger i Artifik, men er ikke ferdig: den går nå gjennom hele kontrollen på nytt, med jury, en leser som aldri har sett teksten, og vekting. Punktene som ble strøket, låses med det vi allerede vet. Ny versjon før 23:30, og Einar får hele tilbudet som PDF med en gjennomgangsliste før midnatt. Fredag er det gjennomgang, erklæringer og innsending før kl. 10:00.",
  "frist": "Fre 10:00",
  "fast": [
   {
@@ -92,6 +92,18 @@
   }
  ],
  "crit": [
+  {
+   "farge": "r",
+   "tittel": "Full kontroll av versjon 40",
+   "hvem": "Skriver",
+   "tekst": "Jury, ny leser, låsing av strøkne punkter, KI-sensur, doktor og stresstest mot vektingen. Ny versjon går bare videre hvis den scorer likt eller høyere. Frist 23:30."
+  },
+  {
+   "farge": "r",
+   "tittel": "Hele tilbudet til Einar som PDF",
+   "hvem": "Claude",
+   "tekst": "Én PDF med alle dokumentene og en konkret liste over hva Einar må se over, og hva hvert punkt gir. Sendes før midnatt."
+  },
   {
    "farge": "g",
    "tittel": "Prismatrisen, alle seks ark",
@@ -251,7 +263,7 @@
    "id": "R003",
    "tittel": "Endring av støpeverktøy",
    "hvem": "Bico",
-   "tekst": "Besvart i kveld: verktøyendringen for Valgdirektoratet (2024). Mangler: hvem som godkjenner hvert steg, og ESPD og erklæring fra Verktøymakeren.",
+   "tekst": "Besvart i kveld: verktøyendringen for Valgdirektoratet (2024). Mangler: hvem som godkjenner hvert steg, og ESPD og erklæring fra Verktøymakeren. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 2
@@ -269,7 +281,7 @@
    "id": "R005",
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Bico, Signex og Eker",
-   "tekst": "Besvart i kveld: Verktøymakeren og PRO SHOP står for om lag 5 prosent hver. Mangler: Bicos svartid.",
+   "tekst": "Besvart i kveld: Verktøymakeren og PRO SHOP står for om lag 5 prosent hver. Mangler: Bicos svartid. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 1
@@ -278,7 +290,7 @@
    "id": "R006",
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
-   "tekst": "Besvart i kveld: 5 mm på alle anleggsskilt, DIBOND re med over 95 prosent resirkulert aluminium, eloksering AA20 og Bicos egen garanti. Bygges inn av Skriver nå.",
+   "tekst": "Låst: A5-anleggsskiltene i 5 mm, A3 og A4 i 3 mm som i Bilag 1, DIBOND re med resirkulert aluminium, eloksering AA20 og Bicos garanti.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 0
@@ -287,7 +299,7 @@
    "id": "R007",
    "tittel": "Emballasje",
    "hvem": "Signex",
-   "tekst": "Besvart i kveld: dobbel bølgepapp med hjørnebeskyttere, fritt levert Hamar og 1 prosent transportskader. Mangler: resirkulert fiber i pappen og fuktbeskyttelse.",
+   "tekst": "Besvart i kveld: dobbel bølgepapp med hjørnebeskyttere, fritt levert Hamar og 1 prosent transportskader. Mangler: resirkulert fiber i pappen og fuktbeskyttelse. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 1
@@ -314,7 +326,7 @@
    "id": "R010",
    "tittel": "Foliering",
    "hvem": "Signex",
-   "tekst": "Besvart i kveld: ORAFOLs veiledning for bruk, rengjøring og fjerning følger hver leveranse. Mangler: testmetode der prøvefelt ikke er praktisk.",
+   "tekst": "Besvart i kveld: ORAFOLs veiledning for bruk, rengjøring og fjerning følger hver leveranse. Mangler: testmetode der prøvefelt ikke er praktisk. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 1
@@ -323,7 +335,7 @@
    "id": "R011",
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
-   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
+   "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 2
@@ -341,7 +353,7 @@
    "id": "R013",
    "tittel": "Leverandørskifte",
    "hvem": "Bico",
-   "tekst": "Mangler: hvem som frakter støpeverktøyene ved leverandørskifte, og hvem som betaler.",
+   "tekst": "Mangler: hvem som frakter støpeverktøyene ved leverandørskifte, og hvem som betaler. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 1
@@ -386,7 +398,7 @@
    "id": "R018",
    "tittel": "Retur og gjenvinning",
    "hvem": "Bico og Signex",
-   "tekst": "Besvart i kveld: returen går til nærmeste anlegg hos Norsk Gjenvinning. Mangler: bekreftelse fra mottaker for akkurat denne kontrakten.",
+   "tekst": "Besvart i kveld: returen går til nærmeste anlegg hos Norsk Gjenvinning. Mangler: bekreftelse fra mottaker for akkurat denne kontrakten. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 1
@@ -395,7 +407,7 @@
    "id": "R019",
    "tittel": "Rådgivning om klima",
    "hvem": "Bico",
-   "tekst": "Besvart i kveld: brudd hos underleverandør behandles som mislighold, med retting og heving. Mangler: effekten av tiltakene i tall.",
+   "tekst": "Besvart i kveld: brudd hos underleverandør behandles som mislighold, med retting og heving. Mangler: effekten av tiltakene i tall. Låses i kveld med det vi vet, og Einar bekrefter i gjennomgangen.",
    "aapne": 0,
    "bekreft": 0,
    "stroket": 1
@@ -441,6 +453,7 @@
   "tekst": "ferdig kl. 21:54"
  },
  "log": [
+  "12.11 22:05 Versjon 40 går gjennom hele kontrollen på nytt før den regnes som ferdig. Strøkne punkter låses med det vi vet. Ny versjon før 23:30.",
   "12.11 21:48 Versjon 40 av løsningsspesifikasjonen og den sladdede versjonen er byttet inn i Artifik. Fem filer ligger der. Gjenstår: erklæringene fra PRO SHOP og Verktøymakeren.",
   "12.11 20:44 Prismatrisen er rettet etter møtet og lastet opp, og det signerte tilbudsbrevet ligger i Artifik.",
   "12.11 20:35 Einar og Ferdinand har svart på det meste i møte med Vegar. Kortene viser nå bare det som fortsatt mangler.",
@@ -451,8 +464,7 @@
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
-  "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn.",
-  "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut."
+  "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn."
  ],
- "oppdatert": "12.11.2026 kl. 21:55"
+ "oppdatert": "12.11.2026 kl. 22:01"
 }
