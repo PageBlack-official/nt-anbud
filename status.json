@@ -411,7 +411,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 17:56"
+  "tekst": "jobber nå, startet kl. 18:03"
  },
  "log": [
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
@@ -427,5 +427,5 @@
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting."
  ],
- "oppdatert": "12.11.2026 kl. 18:00"
+ "oppdatert": "12.11.2026 kl. 18:04"
 }
