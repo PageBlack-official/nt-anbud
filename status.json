@@ -1,5 +1,5 @@
 {
- "versjon": "v28",
+ "versjon": "v29",
  "aapne": 53,
  "bekreft": 119,
  "selskap": [
@@ -221,12 +221,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v28, 2026-11-12 16:37. Ingen stopp."
+   "tekst": "Stemplet på v29, 2026-11-12 16:43. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v28 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v29 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -432,7 +432,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "succeeded",
-  "tekst": "ferdig kl. 16:31"
+  "tekst": "ferdig kl. 16:42"
  },
  "log": [
   "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut.",
@@ -448,5 +448,5 @@
   "12.11 12:32 Bico har bekreftet R002 og levert Bilag 6 utfylt. Tre detaljer i Bilag 6 er sendt tilbake for avklaring.",
   "12.11 12:25 Eker har bekreftet alle sine setninger og levert årstall. Ny forpliktelseserklæring med åtte tjenester gjenstår."
  ],
- "oppdatert": "12.11.2026 kl. 16:38"
+ "oppdatert": "12.11.2026 kl. 16:43"
 }
