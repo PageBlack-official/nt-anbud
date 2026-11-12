@@ -109,7 +109,7 @@
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Bico har fylt ut sin del, og Eker og PRO SHOP har levert. Signex og Verktøymakeren står fortsatt som invitert og har ikke svart."
+   "tekst": "Bico har fylt ut sin del, og Eker, PRO SHOP og Signex har levert. Bare Verktøymakeren står igjen som invitert."
   },
   {
    "farge": "g",
@@ -168,7 +168,7 @@
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Bico har fylt ut sin del, og Eker og PRO SHOP har levert. Signex og Verktøymakeren står fortsatt som invitert og har ikke svart."
+   "tekst": "Bico har fylt ut sin del, og Eker, PRO SHOP og Signex har levert. Bare Verktøymakeren står igjen som invitert."
   },
   {
    "farge": "g",
@@ -439,6 +439,7 @@
   "tekst": "jobber nå, startet kl. 19:34"
  },
  "log": [
+  "12.11 19:40 Signex har levert ESPD i Artifik. Bare Verktøymakeren gjenstår. Ja/nei-spørsmålene er sendt til Einar og Ferdinand.",
   "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
@@ -449,8 +450,7 @@
   "12.11 16:30 Prismatrisen er mottatt fra Bico, alle seks ark er fylt ut.",
   "12.11 14:45 PRO SHOP AS har svart på ESPD-forespørselen i Artifik.",
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
-  "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
-  "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig."
+  "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt."
  ],
  "oppdatert": "12.11.2026 kl. 19:35"
 }
