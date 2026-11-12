@@ -260,7 +260,7 @@
    "id": "R005",
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Bico, Signex og Eker",
-   "tekst": "Mangler: Verktøymakerens og PRO SHOPs andel av volumet, eierstruktur i Signex og Eker, og svartid fra Bico.",
+   "tekst": "Signex er ferdig. Mangler fra Bico: Verktøymakerens og PRO SHOPs andel av volumet, og svartiden. Strykes ved kuttet kl. 21:00 hvis de ikke kommer.",
    "aapne": 2,
    "bekreft": 13
   },
@@ -268,7 +268,7 @@
    "id": "R006",
    "tittel": "Anleggsskilt som varer i 20 år",
    "hvem": "Signex",
-   "tekst": "Norsk Tipping har svart om målene. Mangler fra Signex: mål og toleranser, korrekturrutine, holdbarhet for trykt folie, resirkulert andel og antall skilt i referansene.",
+   "tekst": "Lukket fra Signex' egne dokumenter: mål, korrektur, korrosjon, holdbarhet for trykt folie og antall skilt. Strykes ved kuttet: resirkulert andel, levetid ut over 20 år for massiv aluminium, og Watrium og Nasjonalmuseet.",
    "aapne": 6,
    "bekreft": 15
   },
@@ -276,7 +276,7 @@
    "id": "R007",
    "tittel": "Emballasje",
    "hvem": "Signex",
-   "tekst": "Mangler fra Signex: pappkvalitet, andel resirkulert fiber og tall for transportskader.",
+   "tekst": "Pakkingen er beskrevet ut fra Signex' eget dokument. Strykes ved kuttet: pappkvalitet, andel resirkulert fiber og tall for transportskader, som Signex ikke har oppgitt.",
    "aapne": 3,
    "bekreft": 9
   },
@@ -300,7 +300,7 @@
    "id": "R010",
    "tittel": "Foliering",
    "hvem": "Signex",
-   "tekst": "Mangler fra Signex: produktnavn for mellomklassen, vedlikeholdsanvisningen og testmetoden.",
+   "tekst": "Lukket: produktnavnene i mellomklassen. Strykes ved kuttet: egen vedlikeholdsanvisning og testmetode der prøvefelt ikke er praktisk.",
    "aapne": 2,
    "bekreft": 7
   },
@@ -308,7 +308,7 @@
    "id": "R011",
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
-   "tekst": "Ferdig fra Eker: alle åtte tjenester med referanser, og Norsk Tipping godtar referanser fra underleverandører. To småopplysninger om BANO strykes hvis de ikke kommer i kveld.",
+   "tekst": "Ferdig fra Eker: alle åtte tjenester med referanser og ett bilde per tjeneste, unntatt BANO. To småopplysninger om BANO strykes ved kuttet.",
    "aapne": 2,
    "bekreft": 1
   },
