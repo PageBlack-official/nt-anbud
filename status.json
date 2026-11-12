@@ -203,7 +203,7 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på den endelige teksten, 2026-11-12 20:32. Ingen stopp."
+   "tekst": "Stemplet på den endelige teksten, 2026-11-12 20:42. Ingen stopp."
   },
   {
    "farge": "g",
@@ -435,8 +435,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 20:38"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 20:43"
  },
  "log": [
   "12.11 20:35 Einar og Ferdinand har svart på det meste i møte med Vegar. Kortene viser nå bare det som fortsatt mangler.",
@@ -452,5 +452,5 @@
   "12.11 14:45 PRO SHOP AS har svart på ESPD-forespørselen i Artifik.",
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver."
  ],
- "oppdatert": "12.11.2026 kl. 20:40"
+ "oppdatert": "12.11.2026 kl. 20:45"
 }
