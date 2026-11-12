@@ -1,5 +1,5 @@
 {
- "versjon": "v22",
+ "versjon": "v23",
  "aapne": 63,
  "bekreft": 118,
  "selskap": [
@@ -62,11 +62,10 @@
    "tekst": "Avklart 12:18: 3D-visualisering dekkes av renderingstjenesten."
   },
   {
-   "farge": "g",
-   "ferdig": true,
-   "tittel": "Ekers referanser",
+   "farge": "r",
+   "tittel": "Eker: bilder uten logo og egenreklame",
    "hvem": "Eker",
-   "tekst": "Referanseliste med kontaktperson, verdi og årstall for alle tjenestene, og ja på alle Ekers setninger."
+   "tekst": "Erklæring, åtte tjenester og referanseliste er godkjent. Bildene og R011-dokumentasjonen er ikke levert uten Ekers logo og egenreklame ennå. Konkurransegrunnlaget punkt 5.4: reklamemateriell skal ikke inngå i tilbudet."
   },
   {
    "farge": "g",
@@ -220,12 +219,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v22, 2026-11-12 12:46. Ingen stopp."
+   "tekst": "Stemplet på v23, 2026-11-12 12:54. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v22 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v23 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -430,10 +429,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 12:50"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 12:55"
  },
  "log": [
+  "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
   "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn.",
   "12.11 12:50 Oversikten er gått gjennom: ferdige punkter er grønne, og to nye underleverandører er lagt til som kritisk punkt.",
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
@@ -444,8 +444,7 @@
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
   "12.11 11:20 Bilag 2 er sjekket mot Norsk Tippings mal: teksten deres står urørt, svarene står i riktige felt.",
-  "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet.",
-  "12.11 10:27 Statussiden lagt ut."
+  "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet."
  ],
- "oppdatert": "12.11.2026 kl. 12:52"
+ "oppdatert": "12.11.2026 kl. 12:57"
 }
