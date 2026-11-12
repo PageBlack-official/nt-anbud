@@ -449,8 +449,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 22:48"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 22:51"
  },
  "log": [
   "12.11 22:05 Versjon 40 går gjennom hele kontrollen på nytt før den regnes som ferdig. Strøkne punkter låses med det vi vet. Ny versjon før 23:30.",
@@ -466,5 +466,5 @@
   "12.11 18:00 Bilag 2 versjon 34 er bygd. Hullene hos Signex er lukket, Ekers bilder er satt inn, og prøvekuttet er rent. Endelig kutt kl. 21:00.",
   "12.11 17:00 Kravkortene er skrevet på nytt fra v29, og Norsk Tippings svar på spørsmålene er tatt inn."
  ],
- "oppdatert": "12.11.2026 kl. 22:51"
+ "oppdatert": "12.11.2026 kl. 22:56"
 }
