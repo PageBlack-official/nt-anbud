@@ -430,7 +430,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 13:39"
+  "tekst": "jobber nå, startet kl. 13:45"
  },
  "log": [
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
@@ -446,5 +446,5 @@
   "12.11 12:05 Eker har levert referanseliste med verdi og kontaktpersoner, og Ekers ESPD er godkjent i Artifik.",
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt."
  ],
- "oppdatert": "12.11.2026 kl. 13:42"
+ "oppdatert": "12.11.2026 kl. 13:47"
 }
