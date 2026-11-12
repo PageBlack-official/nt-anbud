@@ -17,6 +17,7 @@ h1{font-size:clamp(40px,7vw,64px);line-height:1.05;font-weight:600;letter-spacin
 .sub{font-size:21px;color:var(--mut);margin:0 0 36px;max-width:640px}
 h2{font-size:28px;font-weight:600;letter-spacing:-.01em;margin:56px 0 6px}
 .h2s{color:var(--mut);margin:0 0 18px;font-size:15px}
+.bar{height:8px;border-radius:4px;background:var(--line,#d2d2d7);margin:10px 0 6px;overflow:hidden}.bar i{display:block;height:100%;background:#0071e3;border-radius:4px}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
 .stat{background:var(--card);border-radius:18px;padding:20px}
 .stat b{display:block;font-size:34px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
@@ -90,7 +91,9 @@ const open=new Set();let last="";
 const row=(p,i,x)=>{const k=p+i;return `<details data-k="${k}" class="${esc(x.farge)}${x.ferdig?" done":""}"${open.has(k)?" open":""}><summary><span class="dot"></span><span class="t">${esc(x.tittel)}</span>${x.hvem?`<span class="who">${esc(x.hvem)}</span>`:""}</summary><div class="body">${esc(x.tekst)}</div></details>`};
 function tegn(D){
  $("sub").textContent=D.ingress||"";
- $("stats").innerHTML=[[D.versjon,"Versjonen som gjelder"],[D.aapne,"Åpne punkter"],[D.bekreft,"Skal bekreftes"],[D.frist||"","Neste frist"]].map(([a,b])=>`<div class="stat"><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("");
+ const F=D.fremdrift||{},A=D.agent||{},pr=(a,b)=>b?Math.round(100*a/b):0;
+ const bar=(p,a,b)=>`<div class="stat"><b>${p} %</b><div class="bar"><i style="width:${p}%"></i></div><span>${esc(a)}</span><span style="display:block">${esc(b)}</span></div>`;
+ $("stats").innerHTML=bar(pr(F.krav_ferdig,F.krav_alle),"Krav helt ferdige",(F.krav_ferdig||0)+" av "+(F.krav_alle||0))+bar(F.fylt||0,"Fakta på plass i teksten",(D.aapne||0)+" mangler fortsatt")+bar(pr(F.bekreftet,F.bekreft_alle),"Bekreftet av partnerne",(F.bekreftet||0)+" av "+(F.bekreft_alle||0))+[[D.versjon,"Versjonen som gjelder"+(A.tekst?" · Skriver "+A.tekst:"")],[D.frist||"","Neste frist"]].map(([a,b])=>`<div class="stat"><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("");
  for(const id of ["fast","crit","parts","checks"])$(id).innerHTML=(D[id]||[]).map((x,i)=>row(id,i,x)).join("");
  $("krav").innerHTML=(D.krav||[]).map(x=>{const c=x.aapne===0?"g":x.aapne<4?"y":"r",k="k"+x.id;
   return `<details data-k="${k}" class="tile ${c}"${open.has(k)?" open":""}><summary><span class="n">${esc(x.id)} · ${esc(x.hvem)}</span><span class="k">${esc(x.tittel)}</span><span class="c">${x.aapne} åpne · ${x.bekreft} bekreftes</span></summary><div class="body">${esc(x.tekst)}</div></details>`}).join("");

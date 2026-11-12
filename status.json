@@ -388,6 +388,18 @@
    "bekreft": 2
   }
  ],
+ "fremdrift": {
+  "krav_ferdig": 8,
+  "krav_alle": 22,
+  "fylt": 69,
+  "bekreftet": 0,
+  "bekreft_alle": 155
+ },
+ "agent": {
+  "navn": "Skriver",
+  "status": "succeeded",
+  "tekst": "ferdig kl. 10:50"
+ },
  "log": [
   "12.11 10:32 Lenken til statussiden sendt til alle i prosjektet.",
   "12.11 10:27 Statussiden lagt ut.",
@@ -398,5 +410,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 10:41"
+ "oppdatert": "12.11.2026 kl. 10:59"
 }

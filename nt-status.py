@@ -91,10 +91,52 @@ def main():
         c.pop("id", None)
         checks.append(c)
 
+    # Fremdrift (Vegar 12.11 10:58: «hvor mange prosent»). Grunnlinje for bekreftelser = hoyeste antall sett.
+    gl = os.path.join(os.path.dirname(os.path.abspath(__file__)), "grunnlinje.json")
+    try:
+        G = json.loads(les(gl))
+    except Exception:
+        G = {}
+    G["bekreft_maks"] = max(G.get("bekreft_maks", 0), bekreft)
+    with open(gl, "w") as f:
+        json.dump(G, f)
+    skrevet = sum(1 for k in krav if k["aapne"] == 0)
+    fylt = round(100 * bekreft / (aapne + bekreft)) if (aapne + bekreft) else 100
+    bekreftet = G["bekreft_maks"] - bekreft
+    fremdrift = {"krav_ferdig": skrevet, "krav_alle": len(krav), "fylt": fylt,
+                 "bekreftet": bekreftet, "bekreft_alle": G["bekreft_maks"]}
+    # Skriver-status fra Paperclip pa minien (tidsavbrudd 8 s; feiler stille).
+    agent = {}
+    try:
+        import subprocess
+        r = subprocess.run(["ssh", "-o", "ConnectTimeout=5", "-o", "BatchMode=yes", "vegarbakken@Vegars-Plex.local",
+            "curl -s 'localhost:3100/api/companies/3a8fde13-e669-442b-97af-b072fbacf822/heartbeat-runs?agentId=8966cf73-8072-4db1-a1e8-aa8ed2589e83&limit=1'"],
+            capture_output=True, text=True, timeout=8)
+        d = json.loads(r.stdout)
+        d = d.get("data", d) if isinstance(d, dict) else d
+        if d:
+            run = d[0]
+            def kl(x):
+                if not x: return ""
+                t = datetime.datetime.fromisoformat(x.replace("Z", "+00:00")).astimezone()
+                return t.strftime("%H:%M")
+            st = run.get("status")
+            tekst = {"running": "jobber nå, startet kl. " + kl(run.get("startedAt")),
+                     "queued": "står i kø",
+                     "succeeded": "ferdig kl. " + kl(run.get("finishedAt")),
+                     "failed": "stoppet med feil kl. " + kl(run.get("finishedAt")),
+                     "cancelled": "avbrutt kl. " + kl(run.get("finishedAt"))}.get(st, st)
+            agent = {"navn": "Skriver", "status": st, "tekst": tekst}
+    except Exception:
+        agent = G.get("agent_sist", {})
+    if agent:
+        G["agent_sist"] = agent
+        with open(gl, "w") as f:
+            json.dump(G, f)
     D = {"versjon": "v%d" % n, "aapne": aapne, "bekreft": bekreft, "selskap": selskap,
          "ingress": man.get("ingress", ""), "frist": man.get("frist", ""),
          "fast": man.get("fast", []), "crit": man.get("crit", []), "parts": man.get("parts", []),
-         "checks": checks, "krav": krav, "log": man.get("log", [])[:12]}
+         "checks": checks, "krav": krav, "fremdrift": fremdrift, "agent": agent, "log": man.get("log", [])[:12]}
     gammel = {}
     if os.path.exists(UT):
         try:
