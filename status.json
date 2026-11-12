@@ -1,7 +1,7 @@
 {
- "versjon": "v14",
+ "versjon": "v15",
  "aapne": 71,
- "bekreft": 155,
+ "bekreft": 154,
  "selskap": [
   [
    "Bico",
@@ -11,7 +11,7 @@
   [
    "Signex",
    24,
-   66
+   65
   ],
   [
    "Eker",
@@ -185,14 +185,14 @@
    "tekst": "Lenkene som finnes i fila, står i Norsk Tippings egen mal."
   },
   {
-   "farge": "g",
+   "farge": "r",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v14, 2026-11-12 11:19. Ingen stopp."
+   "tekst": "Ikke stemplet på v15 ennå."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v14 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v15 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -257,7 +257,7 @@
    "hvem": "Signex",
    "tekst": "Mangler mål per format, dokumentasjon på slag og holdbarhet for trykt folie, og tall for resirkulert andel.",
    "aapne": 11,
-   "bekreft": 16
+   "bekreft": 15
   },
   {
    "id": "R007",
@@ -391,14 +391,14 @@
  "fremdrift": {
   "krav_ferdig": 8,
   "krav_alle": 22,
-  "fylt": 69,
-  "bekreftet": 0,
+  "fylt": 68,
+  "bekreftet": 1,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 11:26"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 11:29"
  },
  "log": [
   "12.11 11:30 Hvert selskap har fått sin liste over det som gjenstår, på mail. Svar rett under hvert punkt.",
@@ -412,5 +412,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 11:26"
+ "oppdatert": "12.11.2026 kl. 11:31"
 }
