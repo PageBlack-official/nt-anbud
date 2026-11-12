@@ -436,7 +436,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 19:50"
+  "tekst": "jobber nå, startet kl. 19:52"
  },
  "log": [
   "12.11 19:40 Signex har levert ESPD i Artifik. Bare Verktøymakeren gjenstår. Ja/nei-spørsmålene er sendt til Einar og Ferdinand.",
@@ -452,5 +452,5 @@
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt."
  ],
- "oppdatert": "12.11.2026 kl. 19:50"
+ "oppdatert": "12.11.2026 kl. 19:55"
 }
