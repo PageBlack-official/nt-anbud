@@ -213,7 +213,7 @@
   {
    "farge": "y",
    "tittel": "Jury",
-   "tekst": "Kjører nå på den endelige teksten, startet 18:55, av en uavhengig agent som ikke har skrevet teksten."
+   "tekst": "Kjørt på den endelige teksten 19:00 av en uavhengig agent: kvalitet 21 av 35, miljø 17 av 30. Med de strøkne punktene på plass anslås 47 av 65. Spørsmål sendt til Einar og Ferdinand, og Skriver retter det vi vet selv."
   },
   {
    "farge": "r",
@@ -435,10 +435,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 18:53"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 18:56"
  },
  "log": [
+  "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
@@ -449,8 +450,7 @@
   "12.11 14:45 PRO SHOP AS har svart på ESPD-forespørselen i Artifik.",
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
-  "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
-  "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar)."
+  "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig."
  ],
- "oppdatert": "12.11.2026 kl. 18:54"
+ "oppdatert": "12.11.2026 kl. 18:56"
 }
