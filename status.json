@@ -1,6 +1,6 @@
 {
  "versjon": "v34",
- "aapne": 31,
+ "aapne": 30,
  "bekreft": 128,
  "selskap": [],
  "ingress": "Konseptelementer for fysiske arenaer. Ferdige dokumenter til Einar torsdag kl. 23:59, og Einar sender inn fredag før kl. 10:00.",
@@ -365,7 +365,7 @@
    "tittel": "Retur og gjenvinning",
    "hvem": "Bico og Signex",
    "tekst": "Avtalen med Norsk Gjenvinning er inne. Mangler fra Bico: mottaker for plast og metall, og hva vurderingen av eksisterende utstyr bygger på.",
-   "aapne": 3,
+   "aapne": 2,
    "bekreft": 11
   },
   {
@@ -427,5 +427,5 @@
   "12.11 12:42 Ekers forpliktelseserklæring er godkjent. Bico har meldt inn to nye underleverandører som trenger erklæring og ESPD i dag.",
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting."
  ],
- "oppdatert": "12.11.2026 kl. 17:57"
+ "oppdatert": "12.11.2026 kl. 18:00"
 }
