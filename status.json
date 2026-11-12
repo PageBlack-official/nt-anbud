@@ -451,8 +451,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 00:37"
+  "status": "succeeded",
+  "tekst": "ferdig kl. 00:50"
  },
  "log": [
   "13.11 00:40 Bilag 2 oppdatert i Artifik med flere faste forpliktelser (bruksanvisninger, kvartalsrapport på reklamasjoner, månedlig lagerstatus). Fem dokumenter ligger inne.",
@@ -468,5 +468,5 @@
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer."
  ],
- "oppdatert": "13.11.2026 kl. 00:41"
+ "oppdatert": "13.11.2026 kl. 00:51"
 }
