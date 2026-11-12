@@ -1,5 +1,5 @@
 {
- "versjon": "v15",
+ "versjon": "v16",
  "aapne": 71,
  "bekreft": 154,
  "selskap": [
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v15, 2026-11-12 11:31. Ingen stopp."
+   "tekst": "Stemplet på v16, 2026-11-12 11:44. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v15 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v16 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -412,5 +412,5 @@
   "11.11 17:15 Ekers forpliktelseserklæring godkjent.",
   "11.11 16:07 Signex leverte signert forpliktelseserklæring."
  ],
- "oppdatert": "12.11.2026 kl. 11:36"
+ "oppdatert": "12.11.2026 kl. 11:46"
 }
