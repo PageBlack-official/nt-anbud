@@ -1,7 +1,7 @@
 {
- "versjon": "v18",
- "aapne": 72,
- "bekreft": 155,
+ "versjon": "v19",
+ "aapne": 65,
+ "bekreft": 115,
  "selskap": [
   [
    "Bico",
@@ -15,8 +15,8 @@
   ],
   [
    "Eker",
-   10,
-   40
+   3,
+   0
   ],
   [
    "Vegar",
@@ -187,12 +187,12 @@
   {
    "farge": "g",
    "tittel": "KI-sensur",
-   "tekst": "Stemplet på v18, 2026-11-12 12:22. Ingen stopp."
+   "tekst": "Stemplet på v19, 2026-11-12 12:29. Ingen stopp."
   },
   {
    "farge": "y",
    "tittel": "Faktasjekk",
-   "tekst": "Ikke kjørt på v18 ennå. Bestilt."
+   "tekst": "Ikke kjørt på v19 ennå. Bestilt."
   },
   {
    "farge": "y",
@@ -233,7 +233,7 @@
    "hvem": "Bico",
    "tekst": "Bico svarer ja og har egen konstruksjonskompetanse. Mangler hvem som gjør endringen, utstyr og eksempler.",
    "aapne": 5,
-   "bekreft": 3
+   "bekreft": 2
   },
   {
    "id": "R004",
@@ -248,8 +248,8 @@
    "tittel": "Prototyping og arbeidsprosess",
    "hvem": "Eker og Signex",
    "tekst": "Ekers prosess og testserier er inne. Avsnittet om konsulentenes møtepunkter er skrevet og skal bekreftes.",
-   "aapne": 3,
-   "bekreft": 17
+   "aapne": 2,
+   "bekreft": 11
   },
   {
    "id": "R006",
@@ -296,8 +296,8 @@
    "tittel": "Åtte konsulenttjenester",
    "hvem": "Eker",
    "tekst": "Eker leverer alle åtte. Mangler år, verdi og kontaktperson på flere referanser, og 3D-delen av grafisk design.",
-   "aapne": 10,
-   "bekreft": 34
+   "aapne": 4,
+   "bekreft": 1
   },
   {
    "id": "R012",
@@ -391,14 +391,14 @@
  "fremdrift": {
   "krav_ferdig": 8,
   "krav_alle": 22,
-  "fylt": 68,
-  "bekreftet": 0,
+  "fylt": 64,
+  "bekreftet": 40,
   "bekreft_alle": 155
  },
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 12:28"
+  "tekst": "jobber nå, startet kl. 12:31"
  },
  "log": [
   "12.11 12:36 Bico har bekreftet begge de absolutte kravene R002 og R017. Ekers nye erklæring trenger én liten retting.",
@@ -414,5 +414,5 @@
   "12.11 09:51 Einar bekreftet timeprisen for konsulenttjenestene.",
   "12.11 09:48 Ny versjon bestilt: Eker leverer alle åtte tjenestene."
  ],
- "oppdatert": "12.11.2026 kl. 12:28"
+ "oppdatert": "12.11.2026 kl. 12:32"
 }
