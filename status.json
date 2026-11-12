@@ -211,9 +211,9 @@
    "tekst": "Skriver faktasjekket teksten mot kildene før kuttet 17:56. Ett funn, rettet før kuttet."
   },
   {
-   "farge": "y",
+   "farge": "r",
    "tittel": "Jury",
-   "tekst": "Sist kjørt på v5. Kjøres på den siste versjonen."
+   "tekst": "Ikke kjørt på den endelige teksten. Sist kjørt på v5. Stresstesten mot evalueringen gjenstår."
   },
   {
    "farge": "r",
@@ -233,7 +233,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R002",
@@ -241,7 +242,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R003",
@@ -249,7 +251,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten. 4 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 4
   },
   {
    "id": "R004",
@@ -257,7 +260,8 @@
    "hvem": "Signex",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R005",
@@ -265,7 +269,8 @@
    "hvem": "Bico, Signex og Eker",
    "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 2
   },
   {
    "id": "R006",
@@ -273,7 +278,8 @@
    "hvem": "Signex",
    "tekst": "Ferdig i den endelige teksten. 6 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 6
   },
   {
    "id": "R007",
@@ -281,7 +287,8 @@
    "hvem": "Signex",
    "tekst": "Ferdig i den endelige teksten. 3 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 3
   },
   {
    "id": "R008",
@@ -289,7 +296,8 @@
    "hvem": "Signex",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R009",
@@ -297,7 +305,8 @@
    "hvem": "Signex",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R010",
@@ -305,7 +314,8 @@
    "hvem": "Signex",
    "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 2
   },
   {
    "id": "R011",
@@ -313,7 +323,8 @@
    "hvem": "Eker",
    "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 2
   },
   {
    "id": "R012",
@@ -321,7 +332,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R013",
@@ -329,7 +341,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten. 1 punkt uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 1
   },
   {
    "id": "R014",
@@ -337,7 +350,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R015",
@@ -345,7 +359,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten. 3 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 3
   },
   {
    "id": "R016",
@@ -353,7 +368,8 @@
    "hvem": "Bico og Signex",
    "tekst": "Ferdig i den endelige teksten. 1 punkt uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 1
   },
   {
    "id": "R017",
@@ -361,7 +377,8 @@
    "hvem": "Bico og Signex",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R018",
@@ -369,7 +386,8 @@
    "hvem": "Bico og Signex",
    "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 2
   },
   {
    "id": "R019",
@@ -377,7 +395,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 2
   },
   {
    "id": "R020",
@@ -385,7 +404,8 @@
    "hvem": "Bico og Signex",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R021",
@@ -393,7 +413,8 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 0
   },
   {
    "id": "R022",
@@ -401,11 +422,12 @@
    "hvem": "Bico",
    "tekst": "Ferdig i den endelige teksten. 2 punkter uten kilde ble strøket ved kuttet, ikke gjettet.",
    "aapne": 0,
-   "bekreft": 0
+   "bekreft": 0,
+   "stroket": 2
   }
  ],
  "fremdrift": {
-  "krav_ferdig": 22,
+  "krav_ferdig": 10,
   "krav_alle": 22,
   "fylt": 100,
   "bekreftet": 155,
@@ -417,6 +439,7 @@
   "tekst": "jobber nå, startet kl. 18:41"
  },
  "log": [
+  "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
   "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer.",
   "12.11 18:10 Sjekket i Artifik: Bico har fylt ut sin ESPD, og Eker og PRO SHOP har levert. Signex og Verktøymakeren har ikke svart ennå. Referansene er lastet opp.",
@@ -427,8 +450,7 @@
   "12.11 14:40 Ekers bilder er klipt ut og oppskalert selv, uten logo og salgstekst. 53 bilder klare til Skriver.",
   "12.11 13:30 Eker lastet opp 33 sider fra presentasjonen. Ikke brukbare som de er: ny forespørsel om rene bilder sendt.",
   "12.11 13:20 Einar: PRO SHOP AS er riktig underleverandør, og 20 timer bistand ved leverandørskifte. Bilag 6 ferdig.",
-  "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
-  "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn."
+  "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar)."
  ],
- "oppdatert": "12.11.2026 kl. 18:44"
+ "oppdatert": "12.11.2026 kl. 18:46"
 }

@@ -50,8 +50,12 @@ def main():
         krav = []
         for kid in sorted(man.get("krav", {})):
             meta = man["krav"][kid]
+            # Vegar 18:46: groent maa ikke bety «sterkt». Det som ble stroeket ved kuttet
+            # (MANGLER i siste versjon foer kuttet) koster poeng og vises gult.
+            seksjon = re.search(r"## %s\b.*?(?=\n## R0|\Z)" % kid, t, re.S)
             krav.append({"id": kid, "tittel": meta[0], "hvem": meta[1], "tekst": meta[2],
-                         "aapne": 0, "bekreft": 0})
+                         "aapne": 0, "bekreft": 0,
+                         "stroket": len(re.findall(r"\[MANGLER", seksjon.group(0))) if seksjon else 0})
         krav[0]["aapne"] += rest_a
         krav[0]["bekreft"] += rest_b
         t = ""
@@ -120,7 +124,7 @@ def main():
     G["bekreft_maks"] = max(G.get("bekreft_maks", 0), bekreft)
     with open(gl, "w") as f:
         json.dump(G, f)
-    skrevet = sum(1 for k in krav if k["aapne"] == 0)
+    skrevet = sum(1 for k in krav if k["aapne"] == 0 and not k.get("stroket"))
     fylt = round(100 * bekreft / (aapne + bekreft)) if (aapne + bekreft) else 100
     bekreftet = G["bekreft_maks"] - bekreft
     fremdrift = {"krav_ferdig": skrevet, "krav_alle": len(krav), "fylt": fylt,
