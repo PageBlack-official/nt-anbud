@@ -413,8 +413,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 18:39"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 18:41"
  },
  "log": [
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
@@ -430,5 +430,5 @@
   "12.11 13:00 Eker satt tilbake til ikke ferdig: bilder uten logo og egenreklame mangler (Vegar).",
   "12.11 12:55 Bilag 6 ferdig: Einar er kontaktperson, Reklamepartners rolle er ført inn."
  ],
- "oppdatert": "12.11.2026 kl. 18:41"
+ "oppdatert": "12.11.2026 kl. 18:44"
 }
