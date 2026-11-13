@@ -451,8 +451,8 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "running",
-  "tekst": "jobber nå, startet kl. 09:30"
+  "status": "failed",
+  "tekst": "stoppet med feil kl. 09:35"
  },
  "log": [
   "13.11 09:20 Siste kontroll: alle fire underleverandører har levert ESPD og signert forpliktelseserklæring. Artifik melder at all påkrevd informasjon er fylt inn. Klart for Einars signering og innsending.",
@@ -468,5 +468,5 @@
   "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører."
  ],
- "oppdatert": "13.11.2026 kl. 09:33"
+ "oppdatert": "13.11.2026 kl. 09:38"
 }
