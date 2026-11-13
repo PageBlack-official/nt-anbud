@@ -110,13 +110,13 @@
    "farge": "y",
    "tittel": "To nye underleverandører må ha erklæring og ESPD",
    "hvem": "Bico",
-   "tekst": "PRO SHOP har levert ESPD og signert forpliktelseserklæring, og begge ligger i Artifik. Verktøymakeren står fortsatt som invitert og mangler ESPD."
+   "tekst": "PRO SHOP har levert ESPD og signert forpliktelseserklæring, og begge ligger i Artifik. Verktøymakeren har levert ESPD; forpliktelseserklæringen deres er ikke lastet opp ennå."
   },
   {
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Bico, Eker, Signex og PRO SHOP har levert. Verktøymakeren står som invitert."
+   "tekst": "Bico, Eker, Signex, PRO SHOP og Verktøymakeren har levert."
   },
   {
    "farge": "g",
@@ -184,7 +184,7 @@
    "farge": "y",
    "tittel": "ESPD i Artifik",
    "hvem": "Bico",
-   "tekst": "Bico har fylt ut sin del, og Eker, PRO SHOP og Signex har levert. Bare Verktøymakeren står igjen som invitert."
+   "tekst": "Bico har fylt ut sin del, og Eker, PRO SHOP, Signex og Verktøymakeren har levert."
   },
   {
    "farge": "g",
@@ -451,10 +451,11 @@
  },
  "agent": {
   "navn": "Skriver",
-  "status": "succeeded",
-  "tekst": "ferdig kl. 00:50"
+  "status": "running",
+  "tekst": "jobber nå, startet kl. 07:30"
  },
  "log": [
+  "13.11 07:35 Verktøymakeren har levert ESPD i Artifik og samtykket til å støtte kravet. Forpliktelseserklæringen deres (Vedlegg 2) er ikke lastet opp ennå.",
   "13.11 00:40 Bilag 2 oppdatert i Artifik med flere faste forpliktelser (bruksanvisninger, kvartalsrapport på reklamasjoner, månedlig lagerstatus). Fem dokumenter ligger inne.",
   "13.11 00:07 Artifik melder at all påkrevd informasjon er fylt inn. Bilag 6 har fått med Verktøymakeren, og PRO SHOP har levert sin erklæring. Gjenstår: ESPD fra Verktøymakeren, signering og innsending.",
   "12.11 23:05 Låst versjon med ny formatering ligger i Artifik, og Einar har fått hele tilbudet som PDF. Gjenstår fredag: erklæringene fra PRO SHOP og Verktøymakeren, og innsending.",
@@ -465,8 +466,7 @@
   "12.11 19:40 Signex har levert ESPD i Artifik. Bare Verktøymakeren gjenstår. Ja/nei-spørsmålene er sendt til Einar og Ferdinand.",
   "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
-  "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet.",
-  "12.11 18:35 Tilbudsdokumentene er lastet opp i Artifik, og Einar har fått overleveringen med tilbudsbrevet. Gjenstår hos Bico: signatur, ESPD fra Signex og Verktøymakeren, og to forpliktelseserklæringer."
+  "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet."
  ],
- "oppdatert": "13.11.2026 kl. 00:51"
+ "oppdatert": "13.11.2026 kl. 07:32"
 }
