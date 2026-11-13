@@ -452,7 +452,7 @@
  "agent": {
   "navn": "Skriver",
   "status": "running",
-  "tekst": "jobber nå, startet kl. 07:42"
+  "tekst": "jobber nå, startet kl. 07:51"
  },
  "log": [
   "13.11 07:35 Verktøymakeren har levert ESPD i Artifik og samtykket til å støtte kravet. Forpliktelseserklæringen deres (Vedlegg 2) er ikke lastet opp ennå.",
@@ -468,5 +468,5 @@
   "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
   "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet."
  ],
- "oppdatert": "13.11.2026 kl. 07:42"
+ "oppdatert": "13.11.2026 kl. 07:52"
 }
