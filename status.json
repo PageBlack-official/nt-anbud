@@ -110,7 +110,7 @@
    "farge": "y",
    "tittel": "To nye underleverandører må ha erklæring og ESPD",
    "hvem": "Bico",
-   "tekst": "PRO SHOP har levert ESPD og signert forpliktelseserklæring, og begge ligger i Artifik. Verktøymakeren har levert ESPD; forpliktelseserklæringen deres er ikke lastet opp ennå."
+   "tekst": "PRO SHOP har levert ESPD og signert forpliktelseserklæring, og begge ligger i Artifik. Verktøymakeren har levert ESPD og signert forpliktelseserklæring, og begge ligger i Artifik."
   },
   {
    "farge": "y",
@@ -196,7 +196,7 @@
    "farge": "y",
    "tittel": "Forpliktelseserklæringer",
    "hvem": "Bico",
-   "tekst": "Signex, Eker og PRO SHOP er signert og ligger i Artifik. Verktøymakeren mangler."
+   "tekst": "Signex, Eker, PRO SHOP og Verktøymakeren er signert og ligger i Artifik."
   },
   {
    "farge": "g",
@@ -455,6 +455,7 @@
   "tekst": "ferdig kl. 08:16"
  },
  "log": [
+  "13.11 09:20 Siste kontroll: alle fire underleverandører har levert ESPD og signert forpliktelseserklæring. Artifik melder at all påkrevd informasjon er fylt inn. Klart for Einars signering og innsending.",
   "13.11 07:35 Verktøymakeren har levert ESPD i Artifik og samtykket til å støtte kravet. Forpliktelseserklæringen deres (Vedlegg 2) er ikke lastet opp ennå.",
   "13.11 00:40 Bilag 2 oppdatert i Artifik med flere faste forpliktelser (bruksanvisninger, kvartalsrapport på reklamasjoner, månedlig lagerstatus). Fem dokumenter ligger inne.",
   "13.11 00:07 Artifik melder at all påkrevd informasjon er fylt inn. Bilag 6 har fått med Verktøymakeren, og PRO SHOP har levert sin erklæring. Gjenstår: ESPD fra Verktøymakeren, signering og innsending.",
@@ -465,8 +466,7 @@
   "12.11 20:35 Einar og Ferdinand har svart på det meste i møte med Vegar. Kortene viser nå bare det som fortsatt mangler.",
   "12.11 19:40 Signex har levert ESPD i Artifik. Bare Verktøymakeren gjenstår. Ja/nei-spørsmålene er sendt til Einar og Ferdinand.",
   "12.11 19:05 Juryen har scoret den endelige teksten. Einar og Ferdinand har fått korte spørsmål som gir flere poeng, med svar innen 21:30. Skriver retter formuleringer som kan leses som forbehold.",
-  "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører.",
-  "12.11 18:45 Statussiden viser nå den endelige teksten: ingen åpne punkter. Det som manglet kilde, ble strøket, ikke gjettet."
+  "12.11 18:50 Kravkortene viser nå hva som ble strøket og koster poeng: 12 krav er gule, 10 er komplette. Grønt betyr komplett, ikke bare uten markører."
  ],
- "oppdatert": "13.11.2026 kl. 08:18"
+ "oppdatert": "13.11.2026 kl. 09:16"
 }
